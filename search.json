@@ -1,0 +1,66 @@
+[
+  {
+    "objectID": "lessons/welcome_and_introduction.html",
+    "href": "lessons/welcome_and_introduction.html",
+    "title": "Why do we need statistics?",
+    "section": "",
+    "text": "Course notes links for background reading also contain code used to produce R output used in slides.\nhttps://jsgosnell.github.io/cuny_biostats_book/\nhttps://jsgosnell.github.io/cuny_biostats_book/content/getting_started/getting_started.html\nhttps://jsgosnell.github.io/cuny_biostats_book/content/chapters/Introduction.html\nhttps://jsgosnell.github.io/cuny_biostats_book/content/chapters/Acquiring_data.html\nhttps://jsgosnell.github.io/cuny_biostats_book/content/chapters/summarizing_data.html",
+    "crumbs": [
+      "Lessons",
+      "Welcome and introduction"
+    ]
+  },
+  {
+    "objectID": "lessons/welcome_and_introduction.html#background-reading",
+    "href": "lessons/welcome_and_introduction.html#background-reading",
+    "title": "Why do we need statistics?",
+    "section": "",
+    "text": "Course notes links for background reading also contain code used to produce R output used in slides.\nhttps://jsgosnell.github.io/cuny_biostats_book/\nhttps://jsgosnell.github.io/cuny_biostats_book/content/getting_started/getting_started.html\nhttps://jsgosnell.github.io/cuny_biostats_book/content/chapters/Introduction.html\nhttps://jsgosnell.github.io/cuny_biostats_book/content/chapters/Acquiring_data.html\nhttps://jsgosnell.github.io/cuny_biostats_book/content/chapters/summarizing_data.html",
+    "crumbs": [
+      "Lessons",
+      "Welcome and introduction"
+    ]
+  },
+  {
+    "objectID": "lessons/welcome_and_introduction.html#lecture-slides",
+    "href": "lessons/welcome_and_introduction.html#lecture-slides",
+    "title": "Why do we need statistics?",
+    "section": "Lecture slides",
+    "text": "Lecture slides",
+    "crumbs": [
+      "Lessons",
+      "Welcome and introduction"
+    ]
+  },
+  {
+    "objectID": "lessons/welcome_and_introduction.html#extra-material",
+    "href": "lessons/welcome_and_introduction.html#extra-material",
+    "title": "Why do we need statistics?",
+    "section": "Extra material",
+    "text": "Extra material",
+    "crumbs": [
+      "Lessons",
+      "Welcome and introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#do-toxins-really-harm-the-environment",
+    "href": "index.html#do-toxins-really-harm-the-environment",
+    "title": "Why do we need statistics?",
+    "section": "Do “toxins” really harm the environment?",
+    "text": "Do “toxins” really harm the environment?",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#is-organic-food-really-healthier",
+    "href": "index.html#is-organic-food-really-healthier",
+    "title": "Why do we need statistics?",
+    "section": "Is organic food really healthier?",
+    "text": "Is organic food really healthier?\nThis site is meant to accompany biostatistics courses I teach at Baruch College and the CUNY Graduate Center. Biostatistics is a growing field that uses real data to objectively answer questions like the ones shown above. Statistics is the science of using data collected from one or more samples or experiments to characterize populations or determine relationships among variables. Since statisticians rely on and communicate data, the field also offers insight on data collection and presentation. Biostatisticians are statisticians who are focused on questions related to the natural world, including environmental and human health. In this introductory course we will learn basic introductory statistics but with a focus on biological applications and examples. Practical goals for this course are for students to learn - why various tests exist - how they relate to each other - when one should be used as opposed to another - how to defend the choices you made or evaluate those of others!\nStatistics is also one of the fastest growing job areas in the country and offers a transferable skill set for students. With this in mind, the course will be taught so that students can learn skills they could use in settings ranging from research labs to future jobs. This will include an introduction to the R programming language and version control.\n\n\n\n\n\n\nFigure 1: Chart from Occupational Outlook Handbook showing fastest growing occupations and median pay. Data from 9.8.22. Screenshot taken 7.26.23.\n\n\n\nThis site is part of the course resources that now include\n\ncourse notes/book\ntutorials for many lessons using Swirl\nthis site!\n\nAll of these resources may prove useful in learning the material. I hope you find the materials useful and learn to see statistics as more than something you do to finish a project or a course that you are required to take. The materials are mainly written in quarto, a derivative/extension of rmarkdown, which allows R code and prose to be easily created and published together. You can see the code for all the material on github, and you will learn early on how to make a copy of the material that you can work on yourself.",
+    "crumbs": [
+      "Home"
+    ]
+  }
+]
