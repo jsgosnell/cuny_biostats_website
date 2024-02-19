@@ -13,22 +13,32 @@ knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
 
 ## Background reading
 
-Course notes links for background reading also contain code used to produce R output used in slides.
+Course notes links for background reading also contain code used to
+produce R output used in slides.
 
-https://jsgosnell.github.io/cuny_biostats_book/
+-   [https://jsgosnell.github.io/cuny_biostats_book/](https://jsgosnell.github.io/cuny_biostats_book/){target="_blank"}
 
-https://jsgosnell.github.io/cuny_biostats_book/content/getting_started/getting_started.html 
+-   [https://jsgosnell.github.io/cuny_biostats_book/content/getting_started/getting_started.html](https://jsgosnell.github.io/cuny_biostats_book/content/getting_started/getting_started.html){target="_blank"}
 
-https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Introduction.html 
+-   [https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Introduction.html](https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Introduction.html){target="_blank"}
 
-https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Acquiring_data.html 
+-   [https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Acquiring_data.html](https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Acquiring_data.html){target="_blank"}
 
-https://jsgosnell.github.io/cuny_biostats_book/content/chapters/summarizing_data.html   
+-   [https://jsgosnell.github.io/cuny_biostats_book/content/chapters/summarizing_data.html](https://jsgosnell.github.io/cuny_biostats_book/content/chapters/summarizing_data.html){target="_blank"}
 
 ## Lecture slides
 
 ```{=html}
 <iframe width="780" height="500" src="https://docs.google.com/presentation/d/1qL_LeQI_gN3AZg9i2sno7z_Ot08pjsfSYYz8UDjQt4Y/edit?usp=sharing"></iframe>
 ```
-
 ## Extra material
+
+[Polling problems and why we should still trust some
+polls](https://www.vanderbilt.edu/unity/2021/01/11/polling-problems-and-why-we-should-still-trust-some-polls/){target="_blank"}
+
+```{=html}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sSD84bIkWDw?si=TaA8eVSGUYbegbpp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+```
+Visualize residuals with help of [this
+app](https://shiney.zoology.ubc.ca/whitlock/Residuals/){target="_blank"}
+produced by a group at UBC.

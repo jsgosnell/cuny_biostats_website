@@ -1,0 +1,34 @@
+---
+title: Why do we need statistics?
+author: "J. Stephen Gosnell"
+bibliography: ../references.bib
+---
+
+<!-- COMMENT NOT SHOW IN ANY OUTPUT: Code chunk below sets overall defaults for .qmd file; these inlcude showing output by default and looking for files relative to .Rpoj file, not .qmd file, which makes putting filesin different folders easier  -->
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
+```
+
+## Background reading
+
+Course notes links for background reading also contain code used to
+produce R output used in slides.
+
+-   <https://jsgosnell.github.io/cuny_biostats_book/>
+
+-   <https://jsgosnell.github.io/cuny_biostats_book/content/getting_started/getting_started.html>
+
+-   <https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Introduction.html>
+
+-   <https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Acquiring_data.html>
+
+-   <https://jsgosnell.github.io/cuny_biostats_book/content/chapters/summarizing_data.html>
+
+## Lecture slides
+
+```{=html}
+<iframe width="780" height="500" src="https://docs.google.com/presentation/d/1qL_LeQI_gN3AZg9i2sno7z_Ot08pjsfSYYz8UDjQt4Y/edit?usp=sharing"></iframe>
+```
+## Extra material
