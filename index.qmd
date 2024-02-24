@@ -48,7 +48,7 @@ fig-align="center"}](https://www.bls.gov/ooh/fastest-growing.htm#)
 This site is part of the course resources that now include
 
 -   [course notes/book](https://jsgosnell.github.io/cuny_biostats_book/){target="_blank"}
--   tutorials for many lessons using [Swirl](content/swirl_lessons.qmd){target="_blank"}
+-   tutorials for many lessons using [Swirl](https://jsgosnell.github.io/cuny_biostats_book/content/swirl_lessons.html){target="_blank"}
 -   this site!
 
 All of these resources may prove useful in learning the material. I hope
