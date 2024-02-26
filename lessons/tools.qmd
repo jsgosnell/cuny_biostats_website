@@ -1,6 +1,6 @@
 ---
-title: Why do we need statistics?
-author: "J. Stephen Gosnell"
+title: Introducing R, Rstudio, git, and markdown
+subtitle: Sounds like a lot, doesn't it?
 bibliography: ../references.bib
 ---
 
@@ -11,24 +11,57 @@ knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
 ```
 
+## Objective
+
+To introduce students to the tools we will be using in class and explain
+why we are using them. By the end of the lesson, you should be able to
+
+-   explain what R, Rstudio, git, and markdown are
+
+-   open an R script, .Rmd, and .qmd file
+
+-   define terms including function, library, and class
+
+-   carry out basic operations in R , including
+
+    -   opening a file in R
+
+    -   producing summary statistics
+
+    -   plotting data
+
+    -   developing a linear model
+
+    -   working with markdown via .rmd or .qmd files
+
+    -   *Note: The idea is just to let you see its possible! We will
+        repeat much of this later in class for understanding*
+
+-   define and use version control
+
 ## Background reading
 
 Course notes links for background reading also contain code used to
 produce R output used in slides.
 
--   <https://jsgosnell.github.io/cuny_biostats_book/>
-
 -   <https://jsgosnell.github.io/cuny_biostats_book/content/getting_started/getting_started.html>
 
--   <https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Introduction.html>
-
--   <https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Acquiring_data.html>
-
--   <https://jsgosnell.github.io/cuny_biostats_book/content/chapters/summarizing_data.html>
+-   <https://jsgosnell.github.io/cuny_biostats_book/content/primer_materials/tools_overview.html>
 
 ## Lecture slides
 
 ```{=html}
-<iframe width="780" height="500" src="https://docs.google.com/presentation/d/1qL_LeQI_gN3AZg9i2sno7z_Ot08pjsfSYYz8UDjQt4Y/edit?usp=sharing"></iframe>
+<iframe width="780" height="500" src="https://docs.google.com/presentation/d/1wtBVeCfy14k8xPH0fw8R70b_PCrGSY971I5wJm0Q79E/edit?usp=sharing"></iframe>
 ```
+
+## [Connected assignment(click here)](https://jsgosnell.github.io/cuny_biostats_book/content/practice_problems/1_Getting_used_to_R.html){target="_blank"}
+
 ## Extra material
+
+There are many, many R tutorials and introductions online! Below are a
+link to a few.
+
+-   <https://info5940.infosci.cornell.edu/>
+-   <https://happygitwithr.com/>
+-   <https://bookdown.org/yihui/rmarkdown-cookbook/>
+-   <https://carpentries.org/blog/2022/01/live-lesson-infrastructure/>

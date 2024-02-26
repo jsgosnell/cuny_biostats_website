@@ -1,0 +1,63 @@
+---
+title: Estimation and probability
+subtitle: Using a sample to make a guess and a guess about your guess
+bibliography: ../references.bib
+---
+
+<!-- COMMENT NOT SHOW IN ANY OUTPUT: Code chunk below sets overall defaults for .qmd file; these inlcude showing output by default and looking for files relative to .Rpoj file, not .qmd file, which makes putting filesin different folders easier  -->
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
+```
+
+## Objective
+
+To introduce students to how data can be used to estimate parameters of
+interest and associated sampling error. Basic probability is also
+reviewed, and students are introduced to the ggplot2 package in R. By
+the end of the lesson, you should be able to
+
+-   explain how sampling error is estimated (conceptually and via
+    formulas) for various distributiond
+
+-   develop and interpret 95% confidence intervals
+
+-   Explain probability concepts including independence and
+    conditionality and explain connections to the addition rule,
+    multiplication rule
+
+-   Explain the terms sensitivity and specificity
+
+-   develop plots using ggplot2
+
+## Background reading
+
+Course notes links for background reading also contain code used to
+produce R output used in slides.
+
+-   <https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Estimation.html>
+
+-   <https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Probability.html>
+
+## Lecture slides
+
+```{=html}
+<iframe width="780" height="500" src="https://docs.google.com/presentation/d/1Jd1-KKJtrHdGV8WIXXk1GN3vcNve5yGFMS7JLaJOvTk/edit?usp=sharing"></iframe>
+```
+
+## [Connected assignment(click here)](https://jsgosnell.github.io/cuny_biostats_book/content/practice_problems/2_Estimates_and_ggplot2.html){target="_blank"}
+
+## Extra material
+
+-   [Maintaining Standards: Differences between the Standard Deviation
+    and Standard Error, and When to Use
+    Each](http://journals.sagepub.com/doi/abs/10.1177/070674379604100805){target="_blank"}
+    -   a helpful journal article
+-   Tutorials produced by a group at UBC tha help visualize sampling, confidence intervals, and the central limit theorm
+    -   [Sampling from a normally distributed population
+](https://www.zoology.ubc.ca/~whitlock/Kingfisher/SamplingNormal.htm){target="_blank"}
+    -   [Confidence intervals for the mean](https://www.zoology.ubc.ca/~whitlock/Kingfisher/CIMean.htm){target="_blank"}
+    -   [Sampling from a non-Normally distributed population (the central limit theorem)](https://www.zoology.ubc.ca/~whitlock/Kingfisher/CLT.htm){target="_blank"}
+    
+

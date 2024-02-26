@@ -1,0 +1,118 @@
+---
+title: Introducing hypothesis testing via the binomial distribution
+bibliography: ../references.bib
+---
+
+<!-- COMMENT NOT SHOW IN ANY OUTPUT: Code chunk below sets overall defaults for .qmd file; these inlcude showing output by default and looking for files relative to .Rpoj file, not .qmd file, which makes putting filesin different folders easier  -->
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
+```
+
+## Objective
+
+To introduce students to hypothesis testing via the binomial test.By the
+end of the lesson, you should be able to
+
+-   define and explain null hypothesis significance testing
+
+-   develop null and alternative hypotheses
+
+-   define a p-value and explain how it may obtained and interpreted
+
+-   define statistical power, type I error, and type II error
+
+-   contrast one- and two-sided tests
+
+-   define binomial data and evaluate using binomial tests
+
+-   develop confidence intervals for binomial data
+
+-   relate hypothesis testing and estimation methods
+
+## Background reading
+
+Course notes links for background reading also contain code used to
+produce R output used in slides.
+
+-   <https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Binomial.html>
+
+## Lecture slides
+
+```{=html}
+<iframe width="780" height="500" src="https://docs.google.com/presentation/d/1DNGtYoNSoG1ZKyy2E0uNAqQrPcczUweNyx4L9tIt3gU/edit?usp=sharing"></iframe>
+```
+## Connected swirl lesson
+
+Swirl is an R package that provides guided lessons to help you learn and
+review material. These lessons should serve as a bridge between all the
+code provided in the slides and background reading and the key functions
+and concepts from each lesson. A full course lesson (all lessons
+combined) can also be downloaded using the following instructions.
+
+**THIS IS ONE OF THE FEW TIMES I RECOMMEND WORKING DIRECTLY IN THE
+CONSOLE! THERE IS NO NEED TO DEVELOP A SCRIPT FOR THESE INTERACTIVE
+SESSIONS, THOUGH YOU CAN!**
+
+-   install the "swirl" package
+
+-   run the following code once on the computer to install a new course
+
+    ```{r, eval=FALSE}
+    library(swirl)
+    install_course_github("jsgosnell", "JSG_swirl_lessons")
+    ```
+
+-   start swirl!
+
+    ```{r, eval=F}
+    swirl()
+    ```
+
+    -   swirl()
+
+-   then follow the on-screen prompts to select the JSG_swirl_lessons
+    course and the lessons you want
+
+    -   **Here we will focus on the lessons on Binomial tests**
+
+-   TIP: If you are seeing duplicate courses (or odd versions of each),
+    you can clear all courses and then re-download the courses by
+
+    -   exit swirl using escape key or bye() function
+
+    -   uninstall_all_courses()
+
+    -   then reinstall courses as needed
+
+    -   when you restart swirl with swirl(), you may need to select
+
+        -   2\. No. Let me start something new
+
+## [Connected assignment(click here)](https://jsgosnell.github.io/cuny_biostats_book/content/practice_problems/3_Introduction_to_hypothesis_testing_via_binomial_test.html){target="_blank"}
+
+## Extra material
+
+-   Tutorials produced by a group at UBC tha help visualize sampling,
+    confidence intervals, and the central limit theorm
+    -   [Sampling from a normally distributed
+        population](https://www.zoology.ubc.ca/~whitlock/Kingfisher/SamplingNormal.htm){target="_blank"}
+    -   [Confidence intervals for the
+        mean](https://www.zoology.ubc.ca/~whitlock/Kingfisher/CIMean.htm){target="_blank"}
+    -   [Sampling from a non-Normally distributed population (the
+        central limit
+        theorem)](https://www.zoology.ubc.ca/~whitlock/Kingfisher/CLT.htm){target="_blank"}
+-   @perezgonzalez2015
+
+## Data referenced in class
+
+-   @klem1989
+
+-   @bisazza1996
+
+-   @geipel2020
+
+-   @fischer2021
+
+-   @hama2001

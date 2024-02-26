@@ -1,0 +1,100 @@
+---
+title: Introduction to normality and one-sample tests
+bibliography: ../references.bib
+---
+
+<!-- COMMENT NOT SHOW IN ANY OUTPUT: Code chunk below sets overall defaults for .qmd file; these inlcude showing output by default and looking for files relative to .Rpoj file, not .qmd file, which makes putting filesin different folders easier  -->
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
+```
+
+## Objective
+
+To introduce students to hypothesis testing for continous data from one
+population. By the end of the lesson, you should be able to
+
+-   define and recognize a normal distribution
+-   explain how tests for continuous data differ in their assumptions
+    and explain when each may be appropriate, including for
+    -   Z tests
+    -   t tests
+    -   Wilcoxon (signed-rank test)
+    -   sign tests
+-   carry out the noted tests in R
+
+## Background reading
+
+Course notes links for background reading also contain code used to
+produce R output used in slides.
+
+-   <https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Tests_for_continuous_data_from_one_sample.html>
+
+## Lecture slides
+
+```{=html}
+<iframe width="780" height="500" src="https://docs.google.com/presentation/d/1nTnrI9pL__XGQBBSwND6gMv7pj9lTUtoQIh6oayv-fw/edit?usp=sharing"></iframe>
+```
+## Connected swirl lesson
+
+Swirl is an R package that provides guided lessons to help you learn and
+review material. These lessons should serve as a bridge between all the
+code provided in the slides and background reading and the key functions
+and concepts from each lesson. A full course lesson (all lessons
+combined) can also be downloaded using the following instructions.
+
+**THIS IS ONE OF THE FEW TIMES I RECOMMEND WORKING DIRECTLY IN THE
+CONSOLE! THERE IS NO NEED TO DEVELOP A SCRIPT FOR THESE INTERACTIVE
+SESSIONS, THOUGH YOU CAN!**
+
+-   install the "swirl" package
+
+-   run the following code once on the computer to install a new course
+
+    ```{r, eval=FALSE}
+    library(swirl)
+    install_course_github("jsgosnell", "JSG_swirl_lessons")
+    ```
+
+-   start swirl!
+
+    ```{r, eval=F}
+    swirl()
+    ```
+
+    -   swirl()
+
+-   then follow the on-screen prompts to select the JSG_swirl_lessons
+    course and the lessons you want
+
+    -   **Here we will focus on the lessons on 1-sample tests for
+        continuous data**
+
+-   TIP: If you are seeing duplicate courses (or odd versions of each),
+    you can clear all courses and then re-download the courses by
+
+    -   exit swirl using escape key or bye() function
+
+    -   uninstall_all_courses()
+
+    -   then reinstall courses as needed
+
+    -   when you restart swirl with swirl(), you may need to select
+
+        -   2\. No. Let me start something new
+
+## [Connected assignment(click here)](https://jsgosnell.github.io/cuny_biostats_book/content/practice_problems/4_Continuous_tests_for_1_population.html){target="_blank"}
+
+## Extra material
+
+-   [Example of quantile-quantile
+    plots](https://www.ucd.ie/ecomodel/Resources/QQplots_WebVersion.html){target="_blank"}
+-   [and another](https://rpubs.com/mbh038/725314){target="_blank"}
+    @hunt
+
+## Data referenced in class
+
+-   @crossley2020
+
+-   @sandidge2003

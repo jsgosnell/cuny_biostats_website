@@ -41,6 +41,16 @@ website:
         contents:
           - href: lessons/welcome_and_introduction.qmd
             text: Welcome and introduction
+          - href: lessons/tools.qmd
+            text: Introducing R, Rstudio, git, and markdown
+          - href: lessons/estimation_and_probability.qmd
+            text: Estimation and Probability
+          - href: lessons/intro_to_hypothesis_testing_via_binomial.qmd
+            text: Introducing hypothesis testing via the binomial distribution
+          - href: lessons/intro_to_normality_via_one_sample_tests.qmd
+            text: Introduction to normality and one-sample tests
+          - href: lessons/contingency_analysis.qmd
+            text: Contingency analysis
             
 format:
   html:
