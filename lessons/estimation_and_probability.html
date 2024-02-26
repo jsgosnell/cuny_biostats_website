@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Biostatistics! - Introducing R, Rstudio, git, and markdown</title>
+<title>Biostatistics! - Estimation and probability</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,8 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../lessons/estimation_and_probability.html" rel="next">
-<link href="../lessons/welcome_and_introduction.html" rel="prev">
+<link href="../lessons/intro_to_hypothesis_testing_via_binomial.html" rel="next">
+<link href="../lessons/tools.html" rel="prev">
 <link href="../images/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lessons/welcome_and_introduction.html">Lessons</a></li><li class="breadcrumb-item"><a href="../lessons/tools.html">Introducing R, Rstudio, git, and markdown</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lessons/welcome_and_introduction.html">Lessons</a></li><li class="breadcrumb-item"><a href="../lessons/estimation_and_probability.html">Estimation and Probability</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -139,13 +139,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../lessons/tools.html" class="sidebar-item-text sidebar-link active">
+  <a href="../lessons/tools.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introducing R, Rstudio, git, and markdown</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../lessons/estimation_and_probability.html" class="sidebar-item-text sidebar-link">
+  <a href="../lessons/estimation_and_probability.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Estimation and Probability</span></a>
   </div>
 </li>
@@ -185,15 +185,15 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#connected-assignmentclick-here" id="toc-connected-assignmentclick-here" class="nav-link" data-scroll-target="#connected-assignmentclick-here">Connected assignment(click here)</a></li>
   <li><a href="#extra-material" id="toc-extra-material" class="nav-link" data-scroll-target="#extra-material">Extra material</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/jsgosnell/cuny_biostats_website/edit/main/lessons/tools.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jsgosnell/cuny_biostats_website/blob/main/lessons/tools.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/jsgosnell/cuny_biostats_website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/jsgosnell/cuny_biostats_website/edit/main/lessons/estimation_and_probability.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jsgosnell/cuny_biostats_website/blob/main/lessons/estimation_and_probability.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/jsgosnell/cuny_biostats_website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lessons/welcome_and_introduction.html">Lessons</a></li><li class="breadcrumb-item"><a href="../lessons/tools.html">Introducing R, Rstudio, git, and markdown</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lessons/welcome_and_introduction.html">Lessons</a></li><li class="breadcrumb-item"><a href="../lessons/estimation_and_probability.html">Estimation and Probability</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Introducing R, Rstudio, git, and markdown</h1>
-<p class="subtitle lead">Sounds like a lot, doesn’t it?</p>
+<h1 class="title">Estimation and probability</h1>
+<p class="subtitle lead">Using a sample to make a guess and a guess about your guess</p>
 </div>
 
 
@@ -213,46 +213,43 @@ ul.task-list li input[type="checkbox"] {
 <!-- COMMENT NOT SHOW IN ANY OUTPUT: Code chunk below sets overall defaults for .qmd file; these inlcude showing output by default and looking for files relative to .Rpoj file, not .qmd file, which makes putting filesin different folders easier  -->
 <section id="objective" class="level2">
 <h2 class="anchored" data-anchor-id="objective">Objective</h2>
-<p>To introduce students to the tools we will be using in class and explain why we are using them. By the end of the lesson, you should be able to</p>
+<p>To introduce students to how data can be used to estimate parameters of interest and associated sampling error. Basic probability is also reviewed, and students are introduced to the ggplot2 package in R. By the end of the lesson, you should be able to</p>
 <ul>
-<li><p>explain what R, Rstudio, git, and markdown are</p></li>
-<li><p>open an R script, .Rmd, and .qmd file</p></li>
-<li><p>define terms including function, library, and class</p></li>
-<li><p>carry out basic operations in R , including</p>
-<ul>
-<li><p>opening a file in R</p></li>
-<li><p>producing summary statistics</p></li>
-<li><p>plotting data</p></li>
-<li><p>developing a linear model</p></li>
-<li><p>working with markdown via .rmd or .qmd files</p></li>
-<li><p><em>Note: The idea is just to let you see its possible! We will repeat much of this later in class for understanding</em></p></li>
-</ul></li>
-<li><p>define and use version control</p></li>
+<li><p>explain how sampling error is estimated (conceptually and via formulas) for various distributiond</p></li>
+<li><p>develop and interpret 95% confidence intervals</p></li>
+<li><p>Explain probability concepts including independence and conditionality and explain connections to the addition rule, multiplication rule</p></li>
+<li><p>Explain the terms sensitivity and specificity</p></li>
+<li><p>develop plots using ggplot2</p></li>
 </ul>
 </section>
 <section id="background-reading" class="level2">
 <h2 class="anchored" data-anchor-id="background-reading">Background reading</h2>
 <p>Course notes links for background reading also contain code used to produce R output used in slides.</p>
 <ul>
-<li><p><a href="https://jsgosnell.github.io/cuny_biostats_book/content/getting_started/getting_started.html" class="uri">https://jsgosnell.github.io/cuny_biostats_book/content/getting_started/getting_started.html</a></p></li>
-<li><p><a href="https://jsgosnell.github.io/cuny_biostats_book/content/primer_materials/tools_overview.html" class="uri">https://jsgosnell.github.io/cuny_biostats_book/content/primer_materials/tools_overview.html</a></p></li>
+<li><p><a href="https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Estimation.html" class="uri">https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Estimation.html</a></p></li>
+<li><p><a href="https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Probability.html" class="uri">https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Probability.html</a></p></li>
 </ul>
 </section>
 <section id="lecture-slides" class="level2">
 <h2 class="anchored" data-anchor-id="lecture-slides">Lecture slides</h2>
-<iframe width="780" height="500" src="https://docs.google.com/presentation/d/1wtBVeCfy14k8xPH0fw8R70b_PCrGSY971I5wJm0Q79E/edit?usp=sharing"></iframe>
+<iframe width="780" height="500" src="https://docs.google.com/presentation/d/1Jd1-KKJtrHdGV8WIXXk1GN3vcNve5yGFMS7JLaJOvTk/edit?usp=sharing"></iframe>
 </section>
 <section id="connected-assignmentclick-here" class="level2">
-<h2 class="anchored" data-anchor-id="connected-assignmentclick-here"><a href="https://jsgosnell.github.io/cuny_biostats_book/content/practice_problems/1_Getting_used_to_R.html" target="_blank">Connected assignment(click here)</a></h2>
+<h2 class="anchored" data-anchor-id="connected-assignmentclick-here"><a href="https://jsgosnell.github.io/cuny_biostats_book/content/practice_problems/2_Estimates_and_ggplot2.html" target="_blank">Connected assignment(click here)</a></h2>
 </section>
 <section id="extra-material" class="level2">
 <h2 class="anchored" data-anchor-id="extra-material">Extra material</h2>
-<p>There are many, many R tutorials and introductions online! Below are a link to a few.</p>
 <ul>
-<li><a href="https://info5940.infosci.cornell.edu/" class="uri">https://info5940.infosci.cornell.edu/</a></li>
-<li><a href="https://happygitwithr.com/" class="uri">https://happygitwithr.com/</a></li>
-<li><a href="https://bookdown.org/yihui/rmarkdown-cookbook/" class="uri">https://bookdown.org/yihui/rmarkdown-cookbook/</a></li>
-<li><a href="https://carpentries.org/blog/2022/01/live-lesson-infrastructure/" class="uri">https://carpentries.org/blog/2022/01/live-lesson-infrastructure/</a></li>
+<li><a href="http://journals.sagepub.com/doi/abs/10.1177/070674379604100805" target="_blank">Maintaining Standards: Differences between the Standard Deviation and Standard Error, and When to Use Each</a>
+<ul>
+<li>a helpful journal article</li>
+</ul></li>
+<li>Tutorials produced by a group at UBC tha help visualize sampling, confidence intervals, and the central limit theorm
+<ul>
+<li><a href="https://www.zoology.ubc.ca/~whitlock/Kingfisher/SamplingNormal.htm" target="_blank">Sampling from a normally distributed population</a></li>
+<li><a href="https://www.zoology.ubc.ca/~whitlock/Kingfisher/CIMean.htm" target="_blank">Confidence intervals for the mean</a></li>
+<li><a href="https://www.zoology.ubc.ca/~whitlock/Kingfisher/CLT.htm" target="_blank">Sampling from a non-Normally distributed population (the central limit theorem)</a></li>
+</ul></li>
 </ul>
 
 
@@ -792,13 +789,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../lessons/welcome_and_introduction.html" class="pagination-link  aria-label=" welcome="" and="" introduction"="">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Welcome and introduction</span>
+      <a href="../lessons/tools.html" class="pagination-link  aria-label=" introducing="" r,="" rstudio,="" git,="" and="" markdown"="">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Introducing R, Rstudio, git, and markdown</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../lessons/estimation_and_probability.html" class="pagination-link" aria-label="Estimation and Probability">
-        <span class="nav-page-text">Estimation and Probability</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../lessons/intro_to_hypothesis_testing_via_binomial.html" class="pagination-link" aria-label="Introducing hypothesis testing via the binomial distribution">
+        <span class="nav-page-text">Introducing hypothesis testing via the binomial distribution</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -810,7 +807,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jsgosnell/cuny_biostats_website/edit/main/lessons/tools.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jsgosnell/cuny_biostats_website/blob/main/lessons/tools.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/jsgosnell/cuny_biostats_website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jsgosnell/cuny_biostats_website/edit/main/lessons/estimation_and_probability.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jsgosnell/cuny_biostats_website/blob/main/lessons/estimation_and_probability.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/jsgosnell/cuny_biostats_website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>

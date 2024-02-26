@@ -2,14 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jsgosnell.github.io/cuny_biostats_website/lessons/welcome_and_introduction.html</loc>
-    <lastmod>2024-02-19T16:43:04.478Z</lastmod>
+    <lastmod>2024-02-26T18:36:35.312Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jsgosnell.github.io/cuny_biostats_website/lessons/intro_to_normality_via_one_sample_tests.html</loc>
+    <lastmod>2024-02-26T19:31:54.764Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jsgosnell.github.io/cuny_biostats_website/lessons/estimation_and_probability.html</loc>
+    <lastmod>2024-02-26T19:12:26.691Z</lastmod>
   </url>
   <url>
     <loc>https://jsgosnell.github.io/cuny_biostats_website/index.html</loc>
     <lastmod>2024-02-24T00:59:55.621Z</lastmod>
   </url>
   <url>
+    <loc>https://jsgosnell.github.io/cuny_biostats_website/lessons/contingency_analysis.html</loc>
+    <lastmod>2024-02-26T19:37:53.045Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jsgosnell.github.io/cuny_biostats_website/lessons/intro_to_hypothesis_testing_via_binomial.html</loc>
+    <lastmod>2024-02-26T19:15:15.819Z</lastmod>
+  </url>
+  <url>
     <loc>https://jsgosnell.github.io/cuny_biostats_website/lessons/tools.html</loc>
-    <lastmod>2024-02-19T16:29:50.860Z</lastmod>
+    <lastmod>2024-02-26T18:44:00.734Z</lastmod>
   </url>
 </urlset>

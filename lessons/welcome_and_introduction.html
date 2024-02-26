@@ -6,7 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="J. Stephen Gosnell">
 
 <title>Biostatistics! - Why do we need statistics?</title>
 <style>
@@ -30,6 +29,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../lessons/tools.html" rel="next">
 <link href="../index.html" rel="prev">
 <link href="../images/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
@@ -137,6 +137,36 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Welcome and introduction</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lessons/tools.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introducing R, Rstudio, git, and markdown</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lessons/estimation_and_probability.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Estimation and Probability</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lessons/intro_to_hypothesis_testing_via_binomial.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introducing hypothesis testing via the binomial distribution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lessons/intro_to_normality_via_one_sample_tests.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction to normality and one-sample tests</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lessons/contingency_analysis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Contingency analysis</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -149,7 +179,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#background-reading" id="toc-background-reading" class="nav-link active" data-scroll-target="#background-reading">Background reading</a></li>
+  <li><a href="#objective" id="toc-objective" class="nav-link active" data-scroll-target="#objective">Objective</a></li>
+  <li><a href="#background-reading" id="toc-background-reading" class="nav-link" data-scroll-target="#background-reading">Background reading</a></li>
   <li><a href="#lecture-slides" id="toc-lecture-slides" class="nav-link" data-scroll-target="#lecture-slides">Lecture slides</a></li>
   <li><a href="#extra-material" id="toc-extra-material" class="nav-link" data-scroll-target="#extra-material">Extra material</a></li>
   </ul>
@@ -167,12 +198,6 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>J. Stephen Gosnell </p>
-          </div>
-  </div>
     
   
     
@@ -184,11 +209,26 @@ ul.task-list li input[type="checkbox"] {
 
 
 <!-- COMMENT NOT SHOW IN ANY OUTPUT: Code chunk below sets overall defaults for .qmd file; these inlcude showing output by default and looking for files relative to .Rpoj file, not .qmd file, which makes putting filesin different folders easier  -->
+<section id="objective" class="level2">
+<h2 class="anchored" data-anchor-id="objective">Objective</h2>
+<p>To introduce students (to the class and field of statistics) and discuss how we can acquire and summarize data. By the end of the lesson, you should be able to</p>
+<ul>
+<li><p>discuss why scientists need statistics</p></li>
+<li><p>define statistics</p></li>
+<li><p>understand the structure of the course</p></li>
+<li><p>discuss what sampling is (and how it relates to statistics)</p></li>
+<li><p>discuss what makes a good sample</p></li>
+<li><p>define bias and provide examples of sampling schemes that may lead to it</p></li>
+<li><p>provide examples of how data can be numerically and visually summarized and discuss best practices for these deciding on how specific data sets should be summarized</p>
+<ul>
+<li>Note you don’t have to “make” the graphs or produce the calculations! We’ll do those in later sessions - focus on the concepts for now</li>
+</ul></li>
+</ul>
+</section>
 <section id="background-reading" class="level2">
 <h2 class="anchored" data-anchor-id="background-reading">Background reading</h2>
 <p>Course notes links for background reading also contain code used to produce R output used in slides.</p>
 <ul>
-<li><p><a href="https://jsgosnell.github.io/cuny_biostats_book/" target="_blank">https://jsgosnell.github.io/cuny_biostats_book/</a></p></li>
 <li><p><a href="https://jsgosnell.github.io/cuny_biostats_book/content/getting_started/getting_started.html" target="_blank">https://jsgosnell.github.io/cuny_biostats_book/content/getting_started/getting_started.html</a></p></li>
 <li><p><a href="https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Introduction.html" target="_blank">https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Introduction.html</a></p></li>
 <li><p><a href="https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Acquiring_data.html" target="_blank">https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Acquiring_data.html</a></p></li>
@@ -747,6 +787,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="../lessons/tools.html" class="pagination-link" aria-label="Introducing R, Rstudio, git, and markdown">
+        <span class="nav-page-text">Introducing R, Rstudio, git, and markdown</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
