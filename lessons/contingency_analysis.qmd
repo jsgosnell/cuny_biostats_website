@@ -31,6 +31,7 @@ produce R output used in slides.
 ```{=html}
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQykVxAo_2bCH5IK1EH4Ix4Zq5LtCo1S4wtq-RNgLivFCInG_2PerwQXG5zmGEEI_T2MPol6m4xgjcL/embed?start=false&loop=false&delayms=60000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 ```
+  
 ## Connected swirl lesson
 
 Swirl is an R package that provides guided lessons to help you learn and

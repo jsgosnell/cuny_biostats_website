@@ -40,10 +40,10 @@ produce R output used in slides.
 
 -   <https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Probability.html>
 
-## Lecture slides
+## [Lecture slides (click to open in Google slides!)](https://docs.google.com/presentation/d/1wtBVeCfy14k8xPH0fw8R70b_PCrGSY971I5wJm0Q79E/edit?usp=sharing){target="_blank"}
 
 ```{=html}
-<iframe width="780" height="500" src="https://docs.google.com/presentation/d/1Jd1-KKJtrHdGV8WIXXk1GN3vcNve5yGFMS7JLaJOvTk/edit?usp=sharing"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTZFc0aa0dWVZWgpCfY2B494NXYAjDpyvEOgKZx7BVc86trUnaFv893C6QJGuRCMWN6mCUueTzZP38u/embed?start=false&loop=false&delayms=60000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 ```
 
 ## [Connected assignment(click here)](https://jsgosnell.github.io/cuny_biostats_book/content/practice_problems/2_Estimates_and_ggplot2.html){target="_blank"}
