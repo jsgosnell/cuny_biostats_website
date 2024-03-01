@@ -4,293 +4,460 @@
     "href": "lessons/welcome_and_introduction.html",
     "title": "Why do we need statistics?",
     "section": "",
-    "text": "To introduce students (to the class and field of statistics) and discuss how we can acquire and summarize data. By the end of the lesson, you should be able to\n\ndiscuss why scientists need statistics\ndefine statistics\nunderstand the structure of the course\ndiscuss what sampling is (and how it relates to statistics)\ndiscuss what makes a good sample\ndefine bias and provide examples of sampling schemes that may lead to it\nprovide examples of how data can be numerically and visually summarized and discuss best practices for these deciding on how specific data sets should be summarized\n\nNote you don’t have to “make” the graphs or produce the calculations! We’ll do those in later sessions - focus on the concepts for now"
+    "text": "To introduce students (to the class and field of statistics) and discuss how we can acquire and summarize data. By the end of the lesson, you should be able to\n\ndiscuss why scientists need statistics\ndefine statistics\nunderstand the structure of the course\ndiscuss what sampling is (and how it relates to statistics)\ndiscuss what makes a good sample\ndefine bias and provide examples of sampling schemes that may lead to it\nprovide examples of how data can be numerically and visually summarized and discuss best practices for these deciding on how specific data sets should be summarized\n\nNote you don’t have to “make” the graphs or produce the calculations! We’ll do those in later sessions - focus on the concepts for now",
+    "crumbs": [
+      "Lessons",
+      "Welcome and introduction"
+    ]
   },
   {
     "objectID": "lessons/welcome_and_introduction.html#objective",
     "href": "lessons/welcome_and_introduction.html#objective",
     "title": "Why do we need statistics?",
     "section": "",
-    "text": "To introduce students (to the class and field of statistics) and discuss how we can acquire and summarize data. By the end of the lesson, you should be able to\n\ndiscuss why scientists need statistics\ndefine statistics\nunderstand the structure of the course\ndiscuss what sampling is (and how it relates to statistics)\ndiscuss what makes a good sample\ndefine bias and provide examples of sampling schemes that may lead to it\nprovide examples of how data can be numerically and visually summarized and discuss best practices for these deciding on how specific data sets should be summarized\n\nNote you don’t have to “make” the graphs or produce the calculations! We’ll do those in later sessions - focus on the concepts for now"
+    "text": "To introduce students (to the class and field of statistics) and discuss how we can acquire and summarize data. By the end of the lesson, you should be able to\n\ndiscuss why scientists need statistics\ndefine statistics\nunderstand the structure of the course\ndiscuss what sampling is (and how it relates to statistics)\ndiscuss what makes a good sample\ndefine bias and provide examples of sampling schemes that may lead to it\nprovide examples of how data can be numerically and visually summarized and discuss best practices for these deciding on how specific data sets should be summarized\n\nNote you don’t have to “make” the graphs or produce the calculations! We’ll do those in later sessions - focus on the concepts for now",
+    "crumbs": [
+      "Lessons",
+      "Welcome and introduction"
+    ]
   },
   {
     "objectID": "lessons/welcome_and_introduction.html#background-reading",
     "href": "lessons/welcome_and_introduction.html#background-reading",
     "title": "Why do we need statistics?",
     "section": "Background reading",
-    "text": "Background reading\nCourse notes links for background reading also contain code used to produce R output used in slides.\n\nhttps://jsgosnell.github.io/cuny_biostats_book/content/getting_started/getting_started.html\nhttps://jsgosnell.github.io/cuny_biostats_book/content/chapters/Introduction.html\nhttps://jsgosnell.github.io/cuny_biostats_book/content/chapters/Acquiring_data.html\nhttps://jsgosnell.github.io/cuny_biostats_book/content/chapters/summarizing_data.html"
+    "text": "Background reading\nCourse notes links for background reading also contain code used to produce R output used in slides.\n\nhttps://jsgosnell.github.io/cuny_biostats_book/content/getting_started/getting_started.html\nhttps://jsgosnell.github.io/cuny_biostats_book/content/chapters/Introduction.html\nhttps://jsgosnell.github.io/cuny_biostats_book/content/chapters/Acquiring_data.html\nhttps://jsgosnell.github.io/cuny_biostats_book/content/chapters/summarizing_data.html",
+    "crumbs": [
+      "Lessons",
+      "Welcome and introduction"
+    ]
   },
   {
     "objectID": "lessons/welcome_and_introduction.html#lecture-slides",
     "href": "lessons/welcome_and_introduction.html#lecture-slides",
     "title": "Why do we need statistics?",
     "section": "Lecture slides",
-    "text": "Lecture slides"
+    "text": "Lecture slides",
+    "crumbs": [
+      "Lessons",
+      "Welcome and introduction"
+    ]
   },
   {
     "objectID": "lessons/welcome_and_introduction.html#extra-material",
     "href": "lessons/welcome_and_introduction.html#extra-material",
     "title": "Why do we need statistics?",
     "section": "Extra material",
-    "text": "Extra material\nPolling problems and why we should still trust some polls\n\nVisualize residuals with help of this app produced by a group at UBC."
+    "text": "Extra material\nPolling problems and why we should still trust some polls\n\nVisualize residuals with help of this app produced by a group at UBC.",
+    "crumbs": [
+      "Lessons",
+      "Welcome and introduction"
+    ]
   },
   {
     "objectID": "lessons/intro_to_normality_via_one_sample_tests.html",
     "href": "lessons/intro_to_normality_via_one_sample_tests.html",
     "title": "Introduction to normality and one-sample tests",
     "section": "",
-    "text": "To introduce students to hypothesis testing for continous data from one population. By the end of the lesson, you should be able to\n\ndefine and recognize a normal distribution\nexplain how tests for continuous data differ in their assumptions and explain when each may be appropriate, including for\n\nZ tests\nt tests\nWilcoxon (signed-rank test)\nsign tests\n\ncarry out the noted tests in R"
+    "text": "To introduce students to hypothesis testing for continous data from one population. By the end of the lesson, you should be able to\n\ndefine and recognize a normal distribution\nexplain how tests for continuous data differ in their assumptions and explain when each may be appropriate, including for\n\nZ tests\nt tests\nWilcoxon (signed-rank test)\nsign tests\n\ncarry out the noted tests in R",
+    "crumbs": [
+      "Lessons",
+      "Introduction to normality and one-sample tests"
+    ]
   },
   {
     "objectID": "lessons/intro_to_normality_via_one_sample_tests.html#objective",
     "href": "lessons/intro_to_normality_via_one_sample_tests.html#objective",
     "title": "Introduction to normality and one-sample tests",
     "section": "",
-    "text": "To introduce students to hypothesis testing for continous data from one population. By the end of the lesson, you should be able to\n\ndefine and recognize a normal distribution\nexplain how tests for continuous data differ in their assumptions and explain when each may be appropriate, including for\n\nZ tests\nt tests\nWilcoxon (signed-rank test)\nsign tests\n\ncarry out the noted tests in R"
+    "text": "To introduce students to hypothesis testing for continous data from one population. By the end of the lesson, you should be able to\n\ndefine and recognize a normal distribution\nexplain how tests for continuous data differ in their assumptions and explain when each may be appropriate, including for\n\nZ tests\nt tests\nWilcoxon (signed-rank test)\nsign tests\n\ncarry out the noted tests in R",
+    "crumbs": [
+      "Lessons",
+      "Introduction to normality and one-sample tests"
+    ]
   },
   {
     "objectID": "lessons/intro_to_normality_via_one_sample_tests.html#background-reading",
     "href": "lessons/intro_to_normality_via_one_sample_tests.html#background-reading",
     "title": "Introduction to normality and one-sample tests",
     "section": "Background reading",
-    "text": "Background reading\nCourse notes links for background reading also contain code used to produce R output used in slides.\n\nhttps://jsgosnell.github.io/cuny_biostats_book/content/chapters/Tests_for_continuous_data_from_one_sample.html"
+    "text": "Background reading\nCourse notes links for background reading also contain code used to produce R output used in slides.\n\nhttps://jsgosnell.github.io/cuny_biostats_book/content/chapters/Tests_for_continuous_data_from_one_sample.html",
+    "crumbs": [
+      "Lessons",
+      "Introduction to normality and one-sample tests"
+    ]
   },
   {
-    "objectID": "lessons/intro_to_normality_via_one_sample_tests.html#lecture-slides",
-    "href": "lessons/intro_to_normality_via_one_sample_tests.html#lecture-slides",
+    "objectID": "lessons/intro_to_normality_via_one_sample_tests.html#lecture-slides-click-to-open-in-google-slides",
+    "href": "lessons/intro_to_normality_via_one_sample_tests.html#lecture-slides-click-to-open-in-google-slides",
     "title": "Introduction to normality and one-sample tests",
-    "section": "Lecture slides",
-    "text": "Lecture slides"
+    "section": "Lecture slides (click to open in Google slides!)",
+    "text": "Lecture slides (click to open in Google slides!)",
+    "crumbs": [
+      "Lessons",
+      "Introduction to normality and one-sample tests"
+    ]
   },
   {
     "objectID": "lessons/intro_to_normality_via_one_sample_tests.html#connected-swirl-lesson",
     "href": "lessons/intro_to_normality_via_one_sample_tests.html#connected-swirl-lesson",
     "title": "Introduction to normality and one-sample tests",
     "section": "Connected swirl lesson",
-    "text": "Connected swirl lesson\nSwirl is an R package that provides guided lessons to help you learn and review material. These lessons should serve as a bridge between all the code provided in the slides and background reading and the key functions and concepts from each lesson. A full course lesson (all lessons combined) can also be downloaded using the following instructions.\nTHIS IS ONE OF THE FEW TIMES I RECOMMEND WORKING DIRECTLY IN THE CONSOLE! THERE IS NO NEED TO DEVELOP A SCRIPT FOR THESE INTERACTIVE SESSIONS, THOUGH YOU CAN!\n\ninstall the “swirl” package\nrun the following code once on the computer to install a new course\n\nlibrary(swirl)\ninstall_course_github(\"jsgosnell\", \"JSG_swirl_lessons\")\n\nstart swirl!\n\nswirl()\n\n\nswirl()\n\nthen follow the on-screen prompts to select the JSG_swirl_lessons course and the lessons you want\n\nHere we will focus on the lessons on 1-sample tests for continuous data\n\nTIP: If you are seeing duplicate courses (or odd versions of each), you can clear all courses and then re-download the courses by\n\nexit swirl using escape key or bye() function\nuninstall_all_courses()\nthen reinstall courses as needed\nwhen you restart swirl with swirl(), you may need to select\n\n2. No. Let me start something new"
+    "text": "Connected swirl lesson\nSwirl is an R package that provides guided lessons to help you learn and review material. These lessons should serve as a bridge between all the code provided in the slides and background reading and the key functions and concepts from each lesson. A full course lesson (all lessons combined) can also be downloaded using the following instructions.\nTHIS IS ONE OF THE FEW TIMES I RECOMMEND WORKING DIRECTLY IN THE CONSOLE! THERE IS NO NEED TO DEVELOP A SCRIPT FOR THESE INTERACTIVE SESSIONS, THOUGH YOU CAN!\n\ninstall the “swirl” package\nrun the following code once on the computer to install a new course\n\nlibrary(swirl)\ninstall_course_github(\"jsgosnell\", \"JSG_swirl_lessons\")\n\nstart swirl!\n\nswirl()\n\n\nswirl()\n\nthen follow the on-screen prompts to select the JSG_swirl_lessons course and the lessons you want\n\nHere we will focus on the lessons on 1-sample tests for continuous data\n\nTIP: If you are seeing duplicate courses (or odd versions of each), you can clear all courses and then re-download the courses by\n\nexit swirl using escape key or bye() function\nuninstall_all_courses()\nthen reinstall courses as needed\nwhen you restart swirl with swirl(), you may need to select\n\n2. No. Let me start something new",
+    "crumbs": [
+      "Lessons",
+      "Introduction to normality and one-sample tests"
+    ]
   },
   {
     "objectID": "lessons/intro_to_normality_via_one_sample_tests.html#connected-assignmentclick-here",
     "href": "lessons/intro_to_normality_via_one_sample_tests.html#connected-assignmentclick-here",
     "title": "Introduction to normality and one-sample tests",
     "section": "Connected assignment(click here)",
-    "text": "Connected assignment(click here)"
+    "text": "Connected assignment(click here)",
+    "crumbs": [
+      "Lessons",
+      "Introduction to normality and one-sample tests"
+    ]
   },
   {
     "objectID": "lessons/intro_to_normality_via_one_sample_tests.html#extra-material",
     "href": "lessons/intro_to_normality_via_one_sample_tests.html#extra-material",
     "title": "Introduction to normality and one-sample tests",
     "section": "Extra material",
-    "text": "Extra material\n\nExample of quantile-quantile plots\nand another Hunt (n.d.)"
+    "text": "Extra material\n\nExample of quantile-quantile plots\nand another Hunt (n.d.)",
+    "crumbs": [
+      "Lessons",
+      "Introduction to normality and one-sample tests"
+    ]
   },
   {
     "objectID": "lessons/intro_to_normality_via_one_sample_tests.html#data-referenced-in-class",
     "href": "lessons/intro_to_normality_via_one_sample_tests.html#data-referenced-in-class",
     "title": "Introduction to normality and one-sample tests",
     "section": "Data referenced in class",
-    "text": "Data referenced in class\n\nCrossley et al. (2020)\nSandidge (2003)"
+    "text": "Data referenced in class\n\nCrossley et al. (2020)\nSandidge (2003)",
+    "crumbs": [
+      "Lessons",
+      "Introduction to normality and one-sample tests"
+    ]
   },
   {
     "objectID": "lessons/estimation_and_probability.html",
     "href": "lessons/estimation_and_probability.html",
     "title": "Estimation and probability",
     "section": "",
-    "text": "To introduce students to how data can be used to estimate parameters of interest and associated sampling error. Basic probability is also reviewed, and students are introduced to the ggplot2 package in R. By the end of the lesson, you should be able to\n\nexplain how sampling error is estimated (conceptually and via formulas) for various distributiond\ndevelop and interpret 95% confidence intervals\nExplain probability concepts including independence and conditionality and explain connections to the addition rule, multiplication rule\nExplain the terms sensitivity and specificity\ndevelop plots using ggplot2"
+    "text": "To introduce students to how data can be used to estimate parameters of interest and associated sampling error. Basic probability is also reviewed, and students are introduced to the ggplot2 package in R. By the end of the lesson, you should be able to\n\nexplain how sampling error is estimated (conceptually and via formulas) for various distributiond\ndevelop and interpret 95% confidence intervals\nExplain probability concepts including independence and conditionality and explain connections to the addition rule, multiplication rule\nExplain the terms sensitivity and specificity\ndevelop plots using ggplot2",
+    "crumbs": [
+      "Lessons",
+      "Estimation and Probability"
+    ]
   },
   {
     "objectID": "lessons/estimation_and_probability.html#objective",
     "href": "lessons/estimation_and_probability.html#objective",
     "title": "Estimation and probability",
     "section": "",
-    "text": "To introduce students to how data can be used to estimate parameters of interest and associated sampling error. Basic probability is also reviewed, and students are introduced to the ggplot2 package in R. By the end of the lesson, you should be able to\n\nexplain how sampling error is estimated (conceptually and via formulas) for various distributiond\ndevelop and interpret 95% confidence intervals\nExplain probability concepts including independence and conditionality and explain connections to the addition rule, multiplication rule\nExplain the terms sensitivity and specificity\ndevelop plots using ggplot2"
+    "text": "To introduce students to how data can be used to estimate parameters of interest and associated sampling error. Basic probability is also reviewed, and students are introduced to the ggplot2 package in R. By the end of the lesson, you should be able to\n\nexplain how sampling error is estimated (conceptually and via formulas) for various distributiond\ndevelop and interpret 95% confidence intervals\nExplain probability concepts including independence and conditionality and explain connections to the addition rule, multiplication rule\nExplain the terms sensitivity and specificity\ndevelop plots using ggplot2",
+    "crumbs": [
+      "Lessons",
+      "Estimation and Probability"
+    ]
   },
   {
     "objectID": "lessons/estimation_and_probability.html#background-reading",
     "href": "lessons/estimation_and_probability.html#background-reading",
     "title": "Estimation and probability",
     "section": "Background reading",
-    "text": "Background reading\nCourse notes links for background reading also contain code used to produce R output used in slides.\n\nhttps://jsgosnell.github.io/cuny_biostats_book/content/chapters/Estimation.html\nhttps://jsgosnell.github.io/cuny_biostats_book/content/chapters/Probability.html"
+    "text": "Background reading\nCourse notes links for background reading also contain code used to produce R output used in slides.\n\nhttps://jsgosnell.github.io/cuny_biostats_book/content/chapters/Estimation.html\nhttps://jsgosnell.github.io/cuny_biostats_book/content/chapters/Probability.html",
+    "crumbs": [
+      "Lessons",
+      "Estimation and Probability"
+    ]
   },
   {
     "objectID": "lessons/estimation_and_probability.html#lecture-slides",
     "href": "lessons/estimation_and_probability.html#lecture-slides",
     "title": "Estimation and probability",
     "section": "Lecture slides",
-    "text": "Lecture slides"
+    "text": "Lecture slides",
+    "crumbs": [
+      "Lessons",
+      "Estimation and Probability"
+    ]
   },
   {
     "objectID": "lessons/estimation_and_probability.html#connected-assignmentclick-here",
     "href": "lessons/estimation_and_probability.html#connected-assignmentclick-here",
     "title": "Estimation and probability",
     "section": "Connected assignment(click here)",
-    "text": "Connected assignment(click here)"
+    "text": "Connected assignment(click here)",
+    "crumbs": [
+      "Lessons",
+      "Estimation and Probability"
+    ]
   },
   {
     "objectID": "lessons/estimation_and_probability.html#extra-material",
     "href": "lessons/estimation_and_probability.html#extra-material",
     "title": "Estimation and probability",
     "section": "Extra material",
-    "text": "Extra material\n\nMaintaining Standards: Differences between the Standard Deviation and Standard Error, and When to Use Each\n\na helpful journal article\n\nTutorials produced by a group at UBC tha help visualize sampling, confidence intervals, and the central limit theorm\n\nSampling from a normally distributed population\nConfidence intervals for the mean\nSampling from a non-Normally distributed population (the central limit theorem)"
+    "text": "Extra material\n\nMaintaining Standards: Differences between the Standard Deviation and Standard Error, and When to Use Each\n\na helpful journal article\n\nTutorials produced by a group at UBC tha help visualize sampling, confidence intervals, and the central limit theorm\n\nSampling from a normally distributed population\nConfidence intervals for the mean\nSampling from a non-Normally distributed population (the central limit theorem)",
+    "crumbs": [
+      "Lessons",
+      "Estimation and Probability"
+    ]
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Why do we need statistics?",
     "section": "",
-    "text": "Why do people get cancer?\nDo “toxins” really harm the environment?\nIs organic food really healthier?\n\nThis site is meant to accompany biostatistics courses I teach at Baruch College and the CUNY Graduate Center. Biostatistics is a growing field that uses real data to objectively answer questions like the ones shown above. Statistics is the science of using data collected from one or more samples or experiments to characterize populations or determine relationships among variables. Since statisticians rely on and communicate data, the field also offers insight on data collection and presentation. Biostatisticians are statisticians who are focused on questions related to the natural world, including environmental and human health. In this introductory course we will learn basic introductory statistics but with a focus on biological applications and examples. Practical goals for this course are for students to learn - why various tests exist - how they relate to each other - when one should be used as opposed to another - how to defend the choices you made or evaluate those of others!\nStatistics is also one of the fastest growing job areas in the country and offers a transferable skill set for students. With this in mind, the course will be taught so that students can learn skills they could use in settings ranging from research labs to future jobs. This will include an introduction to the R programming language and version control.\n\n\n\nFigure 1: Chart from Occupational Outlook Handbook showing fastest growing occupations and median pay. Data from 9.8.22. Screenshot taken 7.26.23.\n\n\nThis site is part of the course resources that now include\n\ncourse notes/book\ntutorials for many lessons using Swirl\nthis site!\n\nAll of these resources may prove useful in learning the material. I hope you find the materials useful and learn to see statistics as more than something you do to finish a project or a course that you are required to take. The materials are mainly written in quarto, a derivative/extension of rmarkdown, which allows R code and prose to be easily created and published together. You can see the code for all the material on github, and you will learn early on how to make a copy of the material that you can work on yourself. The first few labs are standalone units to introduce students to tools; later lectures have code integrated directly into the lecture slides."
+    "text": "Why do people get cancer?\nDo “toxins” really harm the environment?\nIs organic food really healthier?\n\nThis site is meant to accompany biostatistics courses I teach at Baruch College and the CUNY Graduate Center. Biostatistics is a growing field that uses real data to objectively answer questions like the ones shown above. Statistics is the science of using data collected from one or more samples or experiments to characterize populations or determine relationships among variables. Since statisticians rely on and communicate data, the field also offers insight on data collection and presentation. Biostatisticians are statisticians who are focused on questions related to the natural world, including environmental and human health. In this introductory course we will learn basic introductory statistics but with a focus on biological applications and examples. Practical goals for this course are for students to learn - why various tests exist - how they relate to each other - when one should be used as opposed to another - how to defend the choices you made or evaluate those of others!\nStatistics is also one of the fastest growing job areas in the country and offers a transferable skill set for students. With this in mind, the course will be taught so that students can learn skills they could use in settings ranging from research labs to future jobs. This will include an introduction to the R programming language and version control.\n\n\n\n\n\n\nFigure 1: Chart from Occupational Outlook Handbook showing fastest growing occupations and median pay. Data from 9.8.22. Screenshot taken 7.26.23.\n\n\n\nThis site is part of the course resources that now include\n\ncourse notes/book\ntutorials for many lessons using Swirl\nthis site!\n\nAll of these resources may prove useful in learning the material. I hope you find the materials useful and learn to see statistics as more than something you do to finish a project or a course that you are required to take. The materials are mainly written in quarto, a derivative/extension of rmarkdown, which allows R code and prose to be easily created and published together. You can see the code for all the material on github, and you will learn early on how to make a copy of the material that you can work on yourself. The first few labs are standalone units to introduce students to tools; later lectures have code integrated directly into the lecture slides.",
+    "crumbs": [
+      "Home"
+    ]
   },
   {
     "objectID": "lessons/contingency_analysis.html",
     "href": "lessons/contingency_analysis.html",
     "title": "Contingency analysis",
     "section": "",
-    "text": "To introduce students to tests for two-samples and associated hypotheses via contingency analysis. By the end of the lesson, you should be able to\n\ndefine and carry out contingency analysis"
+    "text": "To introduce students to tests for two-samples and associated hypotheses via contingency analysis. By the end of the lesson, you should be able to\n\ndefine and carry out contingency analysis",
+    "crumbs": [
+      "Lessons",
+      "Contingency analysis"
+    ]
   },
   {
     "objectID": "lessons/contingency_analysis.html#objective",
     "href": "lessons/contingency_analysis.html#objective",
     "title": "Contingency analysis",
     "section": "",
-    "text": "To introduce students to tests for two-samples and associated hypotheses via contingency analysis. By the end of the lesson, you should be able to\n\ndefine and carry out contingency analysis"
+    "text": "To introduce students to tests for two-samples and associated hypotheses via contingency analysis. By the end of the lesson, you should be able to\n\ndefine and carry out contingency analysis",
+    "crumbs": [
+      "Lessons",
+      "Contingency analysis"
+    ]
   },
   {
     "objectID": "lessons/contingency_analysis.html#background-reading",
     "href": "lessons/contingency_analysis.html#background-reading",
     "title": "Contingency analysis",
     "section": "Background reading",
-    "text": "Background reading\nCourse notes links for background reading also contain code used to produce R output used in slides.\n\nhttps://jsgosnell.github.io/cuny_biostats_book/content/chapters/Compare_proportions_among_populations.html"
+    "text": "Background reading\nCourse notes links for background reading also contain code used to produce R output used in slides.\n\nhttps://jsgosnell.github.io/cuny_biostats_book/content/chapters/Compare_proportions_among_populations.html",
+    "crumbs": [
+      "Lessons",
+      "Contingency analysis"
+    ]
   },
   {
-    "objectID": "lessons/contingency_analysis.html#lecture-slides",
-    "href": "lessons/contingency_analysis.html#lecture-slides",
+    "objectID": "lessons/contingency_analysis.html#lecture-slides-click-to-open-in-google-slides",
+    "href": "lessons/contingency_analysis.html#lecture-slides-click-to-open-in-google-slides",
     "title": "Contingency analysis",
-    "section": "Lecture slides",
-    "text": "Lecture slides"
+    "section": "Lecture slides (click to open in Google slides!)",
+    "text": "Lecture slides (click to open in Google slides!)",
+    "crumbs": [
+      "Lessons",
+      "Contingency analysis"
+    ]
   },
   {
     "objectID": "lessons/contingency_analysis.html#connected-swirl-lesson",
     "href": "lessons/contingency_analysis.html#connected-swirl-lesson",
     "title": "Contingency analysis",
     "section": "Connected swirl lesson",
-    "text": "Connected swirl lesson\nSwirl is an R package that provides guided lessons to help you learn and review material. These lessons should serve as a bridge between all the code provided in the slides and background reading and the key functions and concepts from each lesson. A full course lesson (all lessons combined) can also be downloaded using the following instructions.\nTHIS IS ONE OF THE FEW TIMES I RECOMMEND WORKING DIRECTLY IN THE CONSOLE! THERE IS NO NEED TO DEVELOP A SCRIPT FOR THESE INTERACTIVE SESSIONS, THOUGH YOU CAN!\n\ninstall the “swirl” package\nrun the following code once on the computer to install a new course\n\nlibrary(swirl)\ninstall_course_github(\"jsgosnell\", \"JSG_swirl_lessons\")\n\nstart swirl!\n\nswirl()\n\n\nswirl()\n\nthen follow the on-screen prompts to select the JSG_swirl_lessons course and the lessons you want\n\nHere we will focus on the lessons on Contingency Analysis\n\nTIP: If you are seeing duplicate courses (or odd versions of each), you can clear all courses and then re-download the courses by\n\nexit swirl using escape key or bye() function\nuninstall_all_courses()\nthen reinstall courses as needed\nwhen you restart swirl with swirl(), you may need to select\n\n2. No. Let me start something new"
+    "text": "Connected swirl lesson\nSwirl is an R package that provides guided lessons to help you learn and review material. These lessons should serve as a bridge between all the code provided in the slides and background reading and the key functions and concepts from each lesson. A full course lesson (all lessons combined) can also be downloaded using the following instructions.\nTHIS IS ONE OF THE FEW TIMES I RECOMMEND WORKING DIRECTLY IN THE CONSOLE! THERE IS NO NEED TO DEVELOP A SCRIPT FOR THESE INTERACTIVE SESSIONS, THOUGH YOU CAN!\n\ninstall the “swirl” package\nrun the following code once on the computer to install a new course\n\nlibrary(swirl)\ninstall_course_github(\"jsgosnell\", \"JSG_swirl_lessons\")\n\nstart swirl!\n\nswirl()\n\n\nswirl()\n\nthen follow the on-screen prompts to select the JSG_swirl_lessons course and the lessons you want\n\nHere we will focus on the lessons on Contingency Analysis\n\nTIP: If you are seeing duplicate courses (or odd versions of each), you can clear all courses and then re-download the courses by\n\nexit swirl using escape key or bye() function\nuninstall_all_courses()\nthen reinstall courses as needed\nwhen you restart swirl with swirl(), you may need to select\n\n2. No. Let me start something new",
+    "crumbs": [
+      "Lessons",
+      "Contingency analysis"
+    ]
   },
   {
     "objectID": "lessons/contingency_analysis.html#connected-assignmentclick-here",
     "href": "lessons/contingency_analysis.html#connected-assignmentclick-here",
     "title": "Contingency analysis",
     "section": "Connected assignment(click here)",
-    "text": "Connected assignment(click here)"
+    "text": "Connected assignment(click here)",
+    "crumbs": [
+      "Lessons",
+      "Contingency analysis"
+    ]
   },
   {
     "objectID": "lessons/contingency_analysis.html#extra-material",
     "href": "lessons/contingency_analysis.html#extra-material",
     "title": "Contingency analysis",
     "section": "Extra material",
-    "text": "Extra material\n\nDavies, Crombie, and Tavakoli (1998)"
+    "text": "Extra material\n\nDavies, Crombie, and Tavakoli (1998)",
+    "crumbs": [
+      "Lessons",
+      "Contingency analysis"
+    ]
   },
   {
     "objectID": "lessons/contingency_analysis.html#data-referenced-in-class",
     "href": "lessons/contingency_analysis.html#data-referenced-in-class",
     "title": "Contingency analysis",
     "section": "Data referenced in class",
-    "text": "Data referenced in class\n\nKlem (1989)"
+    "text": "Data referenced in class\n\nKlem (1989)",
+    "crumbs": [
+      "Lessons",
+      "Contingency analysis"
+    ]
   },
   {
     "objectID": "lessons/intro_to_hypothesis_testing_via_binomial.html",
     "href": "lessons/intro_to_hypothesis_testing_via_binomial.html",
     "title": "Introducing hypothesis testing via the binomial distribution",
     "section": "",
-    "text": "To introduce students to hypothesis testing via the binomial test.By the end of the lesson, you should be able to\n\ndefine and explain null hypothesis significance testing\ndevelop null and alternative hypotheses\ndefine a p-value and explain how it may obtained and interpreted\ndefine statistical power, type I error, and type II error\ncontrast one- and two-sided tests\ndefine binomial data and evaluate using binomial tests\ndevelop confidence intervals for binomial data\nrelate hypothesis testing and estimation methods"
+    "text": "To introduce students to hypothesis testing via the binomial test.By the end of the lesson, you should be able to\n\ndefine and explain null hypothesis significance testing\ndevelop null and alternative hypotheses\ndefine a p-value and explain how it may obtained and interpreted\ndefine statistical power, type I error, and type II error\ncontrast one- and two-sided tests\ndefine binomial data and evaluate using binomial tests\ndevelop confidence intervals for binomial data\nrelate hypothesis testing and estimation methods",
+    "crumbs": [
+      "Lessons",
+      "Introducing hypothesis testing via the binomial distribution"
+    ]
   },
   {
     "objectID": "lessons/intro_to_hypothesis_testing_via_binomial.html#objective",
     "href": "lessons/intro_to_hypothesis_testing_via_binomial.html#objective",
     "title": "Introducing hypothesis testing via the binomial distribution",
     "section": "",
-    "text": "To introduce students to hypothesis testing via the binomial test.By the end of the lesson, you should be able to\n\ndefine and explain null hypothesis significance testing\ndevelop null and alternative hypotheses\ndefine a p-value and explain how it may obtained and interpreted\ndefine statistical power, type I error, and type II error\ncontrast one- and two-sided tests\ndefine binomial data and evaluate using binomial tests\ndevelop confidence intervals for binomial data\nrelate hypothesis testing and estimation methods"
+    "text": "To introduce students to hypothesis testing via the binomial test.By the end of the lesson, you should be able to\n\ndefine and explain null hypothesis significance testing\ndevelop null and alternative hypotheses\ndefine a p-value and explain how it may obtained and interpreted\ndefine statistical power, type I error, and type II error\ncontrast one- and two-sided tests\ndefine binomial data and evaluate using binomial tests\ndevelop confidence intervals for binomial data\nrelate hypothesis testing and estimation methods",
+    "crumbs": [
+      "Lessons",
+      "Introducing hypothesis testing via the binomial distribution"
+    ]
   },
   {
     "objectID": "lessons/intro_to_hypothesis_testing_via_binomial.html#background-reading",
     "href": "lessons/intro_to_hypothesis_testing_via_binomial.html#background-reading",
     "title": "Introducing hypothesis testing via the binomial distribution",
     "section": "Background reading",
-    "text": "Background reading\nCourse notes links for background reading also contain code used to produce R output used in slides.\n\nhttps://jsgosnell.github.io/cuny_biostats_book/content/chapters/Binomial.html"
+    "text": "Background reading\nCourse notes links for background reading also contain code used to produce R output used in slides.\n\nhttps://jsgosnell.github.io/cuny_biostats_book/content/chapters/Binomial.html",
+    "crumbs": [
+      "Lessons",
+      "Introducing hypothesis testing via the binomial distribution"
+    ]
   },
   {
     "objectID": "lessons/intro_to_hypothesis_testing_via_binomial.html#lecture-slides",
     "href": "lessons/intro_to_hypothesis_testing_via_binomial.html#lecture-slides",
     "title": "Introducing hypothesis testing via the binomial distribution",
     "section": "Lecture slides",
-    "text": "Lecture slides"
+    "text": "Lecture slides",
+    "crumbs": [
+      "Lessons",
+      "Introducing hypothesis testing via the binomial distribution"
+    ]
   },
   {
     "objectID": "lessons/intro_to_hypothesis_testing_via_binomial.html#connected-swirl-lesson",
     "href": "lessons/intro_to_hypothesis_testing_via_binomial.html#connected-swirl-lesson",
     "title": "Introducing hypothesis testing via the binomial distribution",
     "section": "Connected swirl lesson",
-    "text": "Connected swirl lesson\nSwirl is an R package that provides guided lessons to help you learn and review material. These lessons should serve as a bridge between all the code provided in the slides and background reading and the key functions and concepts from each lesson. A full course lesson (all lessons combined) can also be downloaded using the following instructions.\nTHIS IS ONE OF THE FEW TIMES I RECOMMEND WORKING DIRECTLY IN THE CONSOLE! THERE IS NO NEED TO DEVELOP A SCRIPT FOR THESE INTERACTIVE SESSIONS, THOUGH YOU CAN!\n\ninstall the “swirl” package\nrun the following code once on the computer to install a new course\n\nlibrary(swirl)\ninstall_course_github(\"jsgosnell\", \"JSG_swirl_lessons\")\n\nstart swirl!\n\nswirl()\n\n\nswirl()\n\nthen follow the on-screen prompts to select the JSG_swirl_lessons course and the lessons you want\n\nHere we will focus on the lessons on Binomial tests\n\nTIP: If you are seeing duplicate courses (or odd versions of each), you can clear all courses and then re-download the courses by\n\nexit swirl using escape key or bye() function\nuninstall_all_courses()\nthen reinstall courses as needed\nwhen you restart swirl with swirl(), you may need to select\n\n2. No. Let me start something new"
+    "text": "Connected swirl lesson\nSwirl is an R package that provides guided lessons to help you learn and review material. These lessons should serve as a bridge between all the code provided in the slides and background reading and the key functions and concepts from each lesson. A full course lesson (all lessons combined) can also be downloaded using the following instructions.\nTHIS IS ONE OF THE FEW TIMES I RECOMMEND WORKING DIRECTLY IN THE CONSOLE! THERE IS NO NEED TO DEVELOP A SCRIPT FOR THESE INTERACTIVE SESSIONS, THOUGH YOU CAN!\n\ninstall the “swirl” package\nrun the following code once on the computer to install a new course\n\nlibrary(swirl)\ninstall_course_github(\"jsgosnell\", \"JSG_swirl_lessons\")\n\nstart swirl!\n\nswirl()\n\n\nswirl()\n\nthen follow the on-screen prompts to select the JSG_swirl_lessons course and the lessons you want\n\nHere we will focus on the lessons on Binomial tests\n\nTIP: If you are seeing duplicate courses (or odd versions of each), you can clear all courses and then re-download the courses by\n\nexit swirl using escape key or bye() function\nuninstall_all_courses()\nthen reinstall courses as needed\nwhen you restart swirl with swirl(), you may need to select\n\n2. No. Let me start something new",
+    "crumbs": [
+      "Lessons",
+      "Introducing hypothesis testing via the binomial distribution"
+    ]
   },
   {
     "objectID": "lessons/intro_to_hypothesis_testing_via_binomial.html#connected-assignmentclick-here",
     "href": "lessons/intro_to_hypothesis_testing_via_binomial.html#connected-assignmentclick-here",
     "title": "Introducing hypothesis testing via the binomial distribution",
     "section": "Connected assignment(click here)",
-    "text": "Connected assignment(click here)"
+    "text": "Connected assignment(click here)",
+    "crumbs": [
+      "Lessons",
+      "Introducing hypothesis testing via the binomial distribution"
+    ]
   },
   {
     "objectID": "lessons/intro_to_hypothesis_testing_via_binomial.html#extra-material",
     "href": "lessons/intro_to_hypothesis_testing_via_binomial.html#extra-material",
     "title": "Introducing hypothesis testing via the binomial distribution",
     "section": "Extra material",
-    "text": "Extra material\n\nTutorials produced by a group at UBC tha help visualize sampling, confidence intervals, and the central limit theorm\n\nSampling from a normally distributed population\nConfidence intervals for the mean\nSampling from a non-Normally distributed population (the central limit theorem)\n\nPerezgonzalez (2015)"
+    "text": "Extra material\n\nTutorials produced by a group at UBC tha help visualize sampling, confidence intervals, and the central limit theorm\n\nSampling from a normally distributed population\nConfidence intervals for the mean\nSampling from a non-Normally distributed population (the central limit theorem)\n\nPerezgonzalez (2015)",
+    "crumbs": [
+      "Lessons",
+      "Introducing hypothesis testing via the binomial distribution"
+    ]
   },
   {
     "objectID": "lessons/intro_to_hypothesis_testing_via_binomial.html#data-referenced-in-class",
     "href": "lessons/intro_to_hypothesis_testing_via_binomial.html#data-referenced-in-class",
     "title": "Introducing hypothesis testing via the binomial distribution",
     "section": "Data referenced in class",
-    "text": "Data referenced in class\n\nKlem (1989)\nBisazza et al. (1996)\nGeipel et al. (2020)\nFischer et al. (2021)\nHama et al. (2001)"
+    "text": "Data referenced in class\n\nKlem (1989)\nBisazza et al. (1996)\nGeipel et al. (2020)\nFischer et al. (2021)\nHama et al. (2001)",
+    "crumbs": [
+      "Lessons",
+      "Introducing hypothesis testing via the binomial distribution"
+    ]
   },
   {
     "objectID": "lessons/tools.html",
     "href": "lessons/tools.html",
     "title": "Introducing R, Rstudio, git, and markdown",
     "section": "",
-    "text": "To introduce students to the tools we will be using in class and explain why we are using them. By the end of the lesson, you should be able to\n\nexplain what R, Rstudio, git, and markdown are\nopen an R script, .Rmd, and .qmd file\ndefine terms including function, library, and class\ncarry out basic operations in R , including\n\nopening a file in R\nproducing summary statistics\nplotting data\ndeveloping a linear model\nworking with markdown via .rmd or .qmd files\nNote: The idea is just to let you see its possible! We will repeat much of this later in class for understanding\n\ndefine and use version control"
+    "text": "To introduce students to the tools we will be using in class and explain why we are using them. By the end of the lesson, you should be able to\n\nexplain what R, Rstudio, git, and markdown are\nopen an R script, .Rmd, and .qmd file\ndefine terms including function, library, and class\ncarry out basic operations in R , including\n\nopening a file in R\nproducing summary statistics\nplotting data\ndeveloping a linear model\nworking with markdown via .rmd or .qmd files\nNote: The idea is just to let you see its possible! We will repeat much of this later in class for understanding\n\ndefine and use version control",
+    "crumbs": [
+      "Lessons",
+      "Introducing R, Rstudio, git, and markdown"
+    ]
   },
   {
     "objectID": "lessons/tools.html#objective",
     "href": "lessons/tools.html#objective",
     "title": "Introducing R, Rstudio, git, and markdown",
     "section": "",
-    "text": "To introduce students to the tools we will be using in class and explain why we are using them. By the end of the lesson, you should be able to\n\nexplain what R, Rstudio, git, and markdown are\nopen an R script, .Rmd, and .qmd file\ndefine terms including function, library, and class\ncarry out basic operations in R , including\n\nopening a file in R\nproducing summary statistics\nplotting data\ndeveloping a linear model\nworking with markdown via .rmd or .qmd files\nNote: The idea is just to let you see its possible! We will repeat much of this later in class for understanding\n\ndefine and use version control"
+    "text": "To introduce students to the tools we will be using in class and explain why we are using them. By the end of the lesson, you should be able to\n\nexplain what R, Rstudio, git, and markdown are\nopen an R script, .Rmd, and .qmd file\ndefine terms including function, library, and class\ncarry out basic operations in R , including\n\nopening a file in R\nproducing summary statistics\nplotting data\ndeveloping a linear model\nworking with markdown via .rmd or .qmd files\nNote: The idea is just to let you see its possible! We will repeat much of this later in class for understanding\n\ndefine and use version control",
+    "crumbs": [
+      "Lessons",
+      "Introducing R, Rstudio, git, and markdown"
+    ]
   },
   {
     "objectID": "lessons/tools.html#background-reading",
     "href": "lessons/tools.html#background-reading",
     "title": "Introducing R, Rstudio, git, and markdown",
     "section": "Background reading",
-    "text": "Background reading\nCourse notes links for background reading also contain code used to produce R output used in slides.\n\nhttps://jsgosnell.github.io/cuny_biostats_book/content/getting_started/getting_started.html\nhttps://jsgosnell.github.io/cuny_biostats_book/content/primer_materials/tools_overview.html"
+    "text": "Background reading\nCourse notes links for background reading also contain code used to produce R output used in slides.\n\nhttps://jsgosnell.github.io/cuny_biostats_book/content/getting_started/getting_started.html\nhttps://jsgosnell.github.io/cuny_biostats_book/content/primer_materials/tools_overview.html",
+    "crumbs": [
+      "Lessons",
+      "Introducing R, Rstudio, git, and markdown"
+    ]
   },
   {
     "objectID": "lessons/tools.html#lecture-slides",
     "href": "lessons/tools.html#lecture-slides",
     "title": "Introducing R, Rstudio, git, and markdown",
     "section": "Lecture slides",
-    "text": "Lecture slides"
+    "text": "Lecture slides",
+    "crumbs": [
+      "Lessons",
+      "Introducing R, Rstudio, git, and markdown"
+    ]
   },
   {
     "objectID": "lessons/tools.html#connected-assignmentclick-here",
     "href": "lessons/tools.html#connected-assignmentclick-here",
     "title": "Introducing R, Rstudio, git, and markdown",
     "section": "Connected assignment(click here)",
-    "text": "Connected assignment(click here)"
+    "text": "Connected assignment(click here)",
+    "crumbs": [
+      "Lessons",
+      "Introducing R, Rstudio, git, and markdown"
+    ]
   },
   {
     "objectID": "lessons/tools.html#extra-material",
     "href": "lessons/tools.html#extra-material",
     "title": "Introducing R, Rstudio, git, and markdown",
     "section": "Extra material",
-    "text": "Extra material\nThere are many, many R tutorials and introductions online! Below are a link to a few.\n\nhttps://info5940.infosci.cornell.edu/\nhttps://happygitwithr.com/\nhttps://bookdown.org/yihui/rmarkdown-cookbook/\nhttps://carpentries.org/blog/2022/01/live-lesson-infrastructure/"
+    "text": "Extra material\nThere are many, many R tutorials and introductions online! Below are a link to a few.\n\nhttps://info5940.infosci.cornell.edu/\nhttps://happygitwithr.com/\nhttps://bookdown.org/yihui/rmarkdown-cookbook/\nhttps://carpentries.org/blog/2022/01/live-lesson-infrastructure/",
+    "crumbs": [
+      "Lessons",
+      "Introducing R, Rstudio, git, and markdown"
+    ]
   }
 ]
