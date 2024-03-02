@@ -236,7 +236,6 @@ div.csl-indent {
   <li><a href="#background-reading" id="toc-background-reading" class="nav-link" data-scroll-target="#background-reading">Background reading</a></li>
   <li><a href="#lecture-slides-click-to-open-in-google-slides" id="toc-lecture-slides-click-to-open-in-google-slides" class="nav-link" data-scroll-target="#lecture-slides-click-to-open-in-google-slides">Lecture slides (click to open in Google slides!)</a></li>
   <li><a href="#connected-swirl-lesson" id="toc-connected-swirl-lesson" class="nav-link" data-scroll-target="#connected-swirl-lesson">Connected swirl lesson</a></li>
-  <li><a href="#connected-assignmentclick-here" id="toc-connected-assignmentclick-here" class="nav-link" data-scroll-target="#connected-assignmentclick-here">Connected assignment(click here)</a></li>
   <li><a href="#extra-material" id="toc-extra-material" class="nav-link" data-scroll-target="#extra-material">Extra material</a></li>
   <li><a href="#data-referenced-in-class" id="toc-data-referenced-in-class" class="nav-link" data-scroll-target="#data-referenced-in-class">Data referenced in class</a></li>
   </ul>
@@ -304,22 +303,25 @@ div.csl-indent {
 </ul></li>
 <li><p>then follow the on-screen prompts to select the JSG_swirl_lessons course and the lessons you want</p>
 <ul>
-<li><strong>Here we will focus on the lessons on Contingency Analysis</strong></li>
+<li>Here we will focus on the <strong>Compare proportions among groups</strong> lesson</li>
 </ul></li>
 <li><p>TIP: If you are seeing duplicate courses (or odd versions of each), you can clear all courses and then re-download the courses by</p>
 <ul>
-<li><p>exit swirl using escape key or bye() function</p></li>
-<li><p>uninstall_all_courses()</p></li>
-<li><p>then reinstall courses as needed</p></li>
+<li><p>exiting swirl using escape key or bye() function</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">bye</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></li>
+<li><p>uninstalling and reinstalling courses</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">uninstall_all_courses</span>()</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install_course_github</span>(<span class="st">"jsgosnell"</span>, <span class="st">"JSG_swirl_lessons"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></li>
 <li><p>when you restart swirl with swirl(), you may need to select</p>
 <ul>
-<li>2. No.&nbsp;Let me start something new</li>
+<li>No.&nbsp;Let me start something new ## <a href="https://jsgosnell.github.io/cuny_biostats_book/content/practice_problems/5_Contingency_analysis.html" target="_blank">Connected assignment(click here)</a></li>
 </ul></li>
 </ul></li>
 </ul>
-</section>
-<section id="connected-assignmentclick-here" class="level2">
-<h2 class="anchored" data-anchor-id="connected-assignmentclick-here"><a href="https://jsgosnell.github.io/cuny_biostats_book/content/practice_problems/5_Contingency_analysis.html" target="_blank">Connected assignment(click here)</a></h2>
 </section>
 <section id="extra-material" class="level2">
 <h2 class="anchored" data-anchor-id="extra-material">Extra material</h2>
