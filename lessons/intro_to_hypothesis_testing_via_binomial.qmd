@@ -43,7 +43,6 @@ produce R output used in slides.
 ```{=html}
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQNeMNCd46WhyNcozIdsJqnA__HwMJfi6QXvGIa1koS3nsE444GLmQkwVpyvteT-JSsrxlQjYmuy53x/embed?start=false&loop=false&delayms=60000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 ```
-
 ## Connected swirl lesson
 
 Swirl is an R package that provides guided lessons to help you learn and
@@ -71,25 +70,31 @@ SESSIONS, THOUGH YOU CAN!**
     swirl()
     ```
 
-    -   swirl()
-
 -   then follow the on-screen prompts to select the JSG_swirl_lessons
     course and the lessons you want
 
-    -   **Here we will focus on the lessons on Binomial tests**
+    -   Here we will focus on the **Hypothesis testing starting with
+        binomial tests** lesson
 
 -   TIP: If you are seeing duplicate courses (or odd versions of each),
     you can clear all courses and then re-download the courses by
 
-    -   exit swirl using escape key or bye() function
+    -   exiting swirl using escape key or bye() function
 
-    -   uninstall_all_courses()
+        ```{r, eval=F}
+        bye()
+        ```
 
-    -   then reinstall courses as needed
+    -   uninstalling and reinstalling courses
+
+        ```{r, eval=F}
+        uninstall_all_courses()
+        install_course_github("jsgosnell", "JSG_swirl_lessons")
+        ```
 
     -   when you restart swirl with swirl(), you may need to select
 
-        -   2\. No. Let me start something new
+        -   No. Let me start something new
 
 ## [Connected assignment(click here)](https://jsgosnell.github.io/cuny_biostats_book/content/practice_problems/3_Introduction_to_hypothesis_testing_via_binomial_test.html){target="_blank"}
 

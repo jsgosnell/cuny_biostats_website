@@ -68,21 +68,28 @@ SESSIONS, THOUGH YOU CAN!**
 -   then follow the on-screen prompts to select the JSG_swirl_lessons
     course and the lessons you want
 
-    -   **Here we will focus on the lessons on 1-sample tests for
-        continuous data**
+    -   Here we will focus on the **Tests for continuous data from one
+        sample** lesson
 
 -   TIP: If you are seeing duplicate courses (or odd versions of each),
     you can clear all courses and then re-download the courses by
 
-    -   exit swirl using escape key or bye() function
+    -   exiting swirl using escape key or bye() function
 
-    -   uninstall_all_courses()
+        ```{r, eval=F}
+        bye()
+        ```
 
-    -   then reinstall courses as needed
+    -   uninstalling and reinstalling courses
+
+        ```{r, eval=F}
+        uninstall_all_courses()
+        install_course_github("jsgosnell", "JSG_swirl_lessons")
+        ```
 
     -   when you restart swirl with swirl(), you may need to select
 
-        -   2\. No. Let me start something new
+        -   No. Let me start something new
 
 ## [Connected assignment(click here)](https://jsgosnell.github.io/cuny_biostats_book/content/practice_problems/4_Continuous_tests_for_1_population.html){target="_blank"}
 
