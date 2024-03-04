@@ -51,7 +51,9 @@ website:
           - href: lessons/intro_to_normality_via_one_sample_tests.qmd
             text: Introduction to normality and one-sample tests
           - href: lessons/contingency_analysis.qmd
-            text: Contingency analysis
+            text: Compare proportions among groups
+          - href: lessons/compare_means_among_groups.qmd
+            text: Compare means among groups
             
 format:
   html:
