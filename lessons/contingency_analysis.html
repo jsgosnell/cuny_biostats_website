@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Biostatistics Class Slides - Contingency analysis</title>
+<title>Biostatistics Class Slides - Compare proportions among groups</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -83,6 +83,7 @@ div.csl-indent {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../lessons/compare_means_among_groups.html" rel="next">
 <link href="../lessons/intro_to_normality_via_one_sample_tests.html" rel="prev">
 <link href="../images/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
@@ -136,7 +137,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lessons/welcome_and_introduction.html">Lessons</a></li><li class="breadcrumb-item"><a href="../lessons/contingency_analysis.html">Contingency analysis</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lessons/welcome_and_introduction.html">Lessons</a></li><li class="breadcrumb-item"><a href="../lessons/contingency_analysis.html">Compare proportions among groups</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -217,7 +218,13 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../lessons/contingency_analysis.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Contingency analysis</span></a>
+ <span class="menu-text">Compare proportions among groups</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lessons/compare_means_among_groups.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Compare means among groups</span></a>
   </div>
 </li>
       </ul>
@@ -236,6 +243,7 @@ div.csl-indent {
   <li><a href="#background-reading" id="toc-background-reading" class="nav-link" data-scroll-target="#background-reading">Background reading</a></li>
   <li><a href="#lecture-slides-click-to-open-in-google-slides" id="toc-lecture-slides-click-to-open-in-google-slides" class="nav-link" data-scroll-target="#lecture-slides-click-to-open-in-google-slides">Lecture slides (click to open in Google slides!)</a></li>
   <li><a href="#connected-swirl-lesson" id="toc-connected-swirl-lesson" class="nav-link" data-scroll-target="#connected-swirl-lesson">Connected swirl lesson</a></li>
+  <li><a href="#connected-assignmentclick-here" id="toc-connected-assignmentclick-here" class="nav-link" data-scroll-target="#connected-assignmentclick-here">Connected assignment(click here)</a></li>
   <li><a href="#extra-material" id="toc-extra-material" class="nav-link" data-scroll-target="#extra-material">Extra material</a></li>
   <li><a href="#data-referenced-in-class" id="toc-data-referenced-in-class" class="nav-link" data-scroll-target="#data-referenced-in-class">Data referenced in class</a></li>
   </ul>
@@ -244,10 +252,10 @@ div.csl-indent {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lessons/welcome_and_introduction.html">Lessons</a></li><li class="breadcrumb-item"><a href="../lessons/contingency_analysis.html">Contingency analysis</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lessons/welcome_and_introduction.html">Lessons</a></li><li class="breadcrumb-item"><a href="../lessons/contingency_analysis.html">Compare proportions among groups</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Contingency analysis</h1>
-<p class="subtitle lead">Comparing proportions among groups</p>
+<h1 class="title">Compare proportions among groups</h1>
+<p class="subtitle lead">Contingency analysis</p>
 </div>
 
 
@@ -267,9 +275,11 @@ div.csl-indent {
 <!-- COMMENT NOT SHOW IN ANY OUTPUT: Code chunk below sets overall defaults for .qmd file; these inlcude showing output by default and looking for files relative to .Rpoj file, not .qmd file, which makes putting filesin different folders easier  -->
 <section id="objective" class="level2">
 <h2 class="anchored" data-anchor-id="objective">Objective</h2>
-<p>To introduce students to tests for two-samples and associated hypotheses via contingency analysis. By the end of the lesson, you should be able to</p>
+<p>To introduce students to tests the idea of comparing groups and associated hypotheses via contingency analysis. By the end of the lesson, you should be able to</p>
 <ul>
 <li>define and carry out contingency analysis</li>
+<li>produce null and alternative hypotheses for comparing 2+ populations</li>
+<li>define the issue of family-wise error rate and possible solutions</li>
 </ul>
 </section>
 <section id="background-reading" class="level2">
@@ -318,10 +328,15 @@ div.csl-indent {
 </div></li>
 <li><p>when you restart swirl with swirl(), you may need to select</p>
 <ul>
-<li>No.&nbsp;Let me start something new ## <a href="https://jsgosnell.github.io/cuny_biostats_book/content/practice_problems/5_Contingency_analysis.html" target="_blank">Connected assignment(click here)</a></li>
+<li>No.&nbsp;Let me start something new</li>
 </ul></li>
 </ul></li>
 </ul>
+</section>
+<section id="connected-assignmentclick-here" class="level2">
+<h2 class="anchored" data-anchor-id="connected-assignmentclick-here"><a href="https://jsgosnell.github.io/cuny_biostats_book/content/practice_problems/5_Contingency_analysis.html" target="_blank">Connected assignment(click here)</a></h2>
+<p>Using these skills and applying concepts correctly to interpret data sets may seem easy when you read about them or listen during class, but practice is key to ensuring you understand the material. Practice problems are provided for each lesson. The link above points you to the appropriate link in the <a href="https://jsgosnell.github.io/cuny_biostats_book/" target="_blank">course notes</a>. You can make a copy (technically a <em>fork</em>, since you can’t directly edit it) of the entire course notes website in github @ <a href="https://github.com/jsgosnell/cuny_biostats_book" target="_blank">https://github.com/jsgosnell/cuny_biostats_book</a> and work from there. The benefit is this allows you to see updates to the site (if you sync your fork). The downside is you have to work interactively or build the entire site when you render a changed file. This is doable but may take more time than students need. Alternatively, you can download just the practice problems @ <a href="https://github.com/jsgosnell/cuny_biostats_practice_problems" target="_blank">https://github.com/jsgosnell/cuny_biostats_practice_problems</a>. Your instructor may also provide alternative problems or use a different delivery method (like github classroom).</p>
+<p>Solutions are also provided for all problems via the <a href="https://jsgosnell.github.io/cuny_biostats_book/" target="_blank">course notes</a>, but try them before you look at the answers!</p>
 </section>
 <section id="extra-material" class="level2">
 <h2 class="anchored" data-anchor-id="extra-material">Extra material</h2>
@@ -885,6 +900,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="../lessons/compare_means_among_groups.html" class="pagination-link" aria-label="Compare means among groups">
+        <span class="nav-page-text">Compare means among groups</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
