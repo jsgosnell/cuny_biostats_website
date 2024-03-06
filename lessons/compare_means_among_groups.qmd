@@ -13,11 +13,11 @@ knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
 
 ## Objective
 
-Here we will connect our focus on comparing populations to the analysis of means.
-By the end of the lesson, students should be able to 
+Here we will connect our focus on comparing populations to the analysis
+of means. By the end of the lesson, students should be able to
 
-* note relationship between ANOVAs and t-tests and carry out each
-* note non-parametric alternatives to each test
+-   note relationship between ANOVAs and t-tests and carry out each
+-   note non-parametric alternatives to each test
 
 ## Background reading
 
@@ -31,7 +31,6 @@ produce R output used in slides.
 ```{=html}
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTEkMQy1Er4khof836FqroZQD0yByYNnWZztpWIGPJrGp5zBw8qkpRQqeC-aLlPY1RQ5ZOv829PbOCD/embed?start=false&loop=false&delayms=60000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 ```
-
 ## Connected swirl lesson
 
 Swirl is an R package that provides guided lessons to help you learn and
@@ -64,8 +63,7 @@ SESSIONS, THOUGH YOU CAN!**
 -   then follow the on-screen prompts to select the JSG_swirl_lessons
     course and the lessons you want
 
-    -   Here we will focus on the **Compare means among groups**
-        lesson
+    -   Here we will focus on the **Compare means among groups** lesson
 
 -   TIP: If you are seeing duplicate courses (or odd versions of each),
     you can clear all courses and then re-download the courses by
@@ -107,12 +105,14 @@ you can download just the practice problems \@
 Your instructor may also provide alternative problems or use a different
 delivery method (like github classroom).
 
+**In general you should only work edit .qmd files! Everything/anything
+else is produced during the session and should not be edited. All files
+can be uploaded to github though.**
+
 Solutions are also provided for all problems via the [course
 notes](https://jsgosnell.github.io/cuny_biostats_book/){target="_blank"},
 but try them before you look at the answers!
 
 ## Extra material
 
-
 ## Data referenced in class
-
