@@ -56,7 +56,7 @@ website:
             text: Compare means among groups
           - href: lessons/more_ANOVAs.qmd
             text: More ANOVAs
-          - href: lessons/realationships_among_numerical_variables.qmd
+          - href: lessons/relationships_among_numerical_variables.qmd
             text: Relationships among numerical variables            
 format:
   html:
