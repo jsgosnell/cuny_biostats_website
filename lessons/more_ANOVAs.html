@@ -63,6 +63,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../lessons/realationships_among_numerical_variables.qmd" rel="next">
 <link href="../lessons/compare_means_among_groups.html" rel="prev">
 <link href="../images/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
@@ -116,7 +117,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lessons/welcome_and_introduction.html">Lessons</a></li><li class="breadcrumb-item"><a href="../lessons/More_ANOVAs.html">More ANOVAs</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lessons/welcome_and_introduction.html">Lessons</a></li><li class="breadcrumb-item"><a href="../lessons/more_ANOVAs.html">More ANOVAs</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -208,8 +209,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../lessons/More_ANOVAs.html" class="sidebar-item-text sidebar-link active">
+  <a href="../lessons/more_ANOVAs.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">More ANOVAs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lessons/realationships_among_numerical_variables.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Relationships among numerical variables</span></a>
   </div>
 </li>
       </ul>
@@ -232,12 +239,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#extra-material" id="toc-extra-material" class="nav-link" data-scroll-target="#extra-material">Extra material</a></li>
   <li><a href="#data-referenced-in-class" id="toc-data-referenced-in-class" class="nav-link" data-scroll-target="#data-referenced-in-class">Data referenced in class</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/jsgosnell/cuny_biostats_website/edit/main/lessons/More_ANOVAs.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jsgosnell/cuny_biostats_website/blob/main/lessons/More_ANOVAs.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/jsgosnell/cuny_biostats_website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/jsgosnell/cuny_biostats_website/edit/main/lessons/more_ANOVAs.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jsgosnell/cuny_biostats_website/blob/main/lessons/more_ANOVAs.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/jsgosnell/cuny_biostats_website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lessons/welcome_and_introduction.html">Lessons</a></li><li class="breadcrumb-item"><a href="../lessons/More_ANOVAs.html">More ANOVAs</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lessons/welcome_and_introduction.html">Lessons</a></li><li class="breadcrumb-item"><a href="../lessons/more_ANOVAs.html">More ANOVAs</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">More ANOVAs</h1>
 <p class="subtitle lead">Dealing with multiple group membership and interactions</p>
@@ -260,7 +267,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- COMMENT NOT SHOW IN ANY OUTPUT: Code chunk below sets overall defaults for .qmd file; these inlcude showing output by default and looking for files relative to .Rpoj file, not .qmd file, which makes putting filesin different folders easier  -->
 <section id="objective" class="level2">
 <h2 class="anchored" data-anchor-id="objective">Objective</h2>
-<p>Here we will extend our use of ANOVAs (and linear models) to consider how multiple categorical variables impact an outcome. By the end of the lesson, students should be able to</p>
+<p>Here we will extend our use of ANOVAs (and linear models) to consider how multiple categorical variables impact a continuous response variable/outcome. By the end of the lesson, students should be able to</p>
 <ul>
 <li>define interactions and blocking</li>
 </ul>
@@ -871,6 +878,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="../lessons/realationships_among_numerical_variables.qmd" class="pagination-link" aria-label="Relationships among numerical variables">
+        <span class="nav-page-text">Relationships among numerical variables</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
@@ -881,7 +891,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
 <p><a href="https://jsgosnell.github.io/cuny_biostats_book/">Course notes</a> &amp; <a href="https://jsgosnell.github.io/cuny_biostats_website/">slides</a></p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jsgosnell/cuny_biostats_website/edit/main/lessons/More_ANOVAs.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jsgosnell/cuny_biostats_website/blob/main/lessons/More_ANOVAs.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/jsgosnell/cuny_biostats_website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jsgosnell/cuny_biostats_website/edit/main/lessons/more_ANOVAs.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jsgosnell/cuny_biostats_website/blob/main/lessons/more_ANOVAs.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/jsgosnell/cuny_biostats_website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>

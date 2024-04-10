@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Biostatistics Class Slides - Compare proportions among groups</title>
+<title>Biostatistics Class Slides - Relationships among numerical variables</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -54,27 +54,7 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -83,8 +63,6 @@ div.csl-indent {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../lessons/compare_means_among_groups.html" rel="next">
-<link href="../lessons/intro_to_normality_via_one_sample_tests.html" rel="prev">
 <link href="../images/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -128,123 +106,12 @@ div.csl-indent {
 
 </head>
 
-<body class="nav-sidebar docked">
+<body>
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lessons/welcome_and_introduction.html">Lessons</a></li><li class="breadcrumb-item"><a href="../lessons/contingency_analysis.html">Compare proportions among groups</a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
-</header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="../index.html" class="sidebar-logo-link">
-      <img src="../images/platypus_from_1893_mivart.jpg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
-      </a>
-    <div class="sidebar-title mb-0 py-0">
-      <a href="../">Biostats: Class material</a> 
-        <div class="sidebar-tools-main tools-wide">
-    <a href="https://www.gosnelllab.com/" title="Gosnell lab website" class="quarto-navigation-tool px-1" aria-label="Gosnell lab website"><i class="bi bi-globe"></i></a>
-    <a href="https://github.com/jsgosnell" title="J. Stephen Gosnell github" class="quarto-navigation-tool px-1" aria-label="J. Stephen Gosnell github"><i class="bi bi-github"></i></a>
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-</div>
-    </div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Home</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
- <span class="menu-text">Lessons</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../lessons/welcome_and_introduction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Welcome and introduction</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../lessons/tools.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introducing R, Rstudio, git, and markdown</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../lessons/estimation_and_probability.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Estimation and Probability</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../lessons/intro_to_hypothesis_testing_via_binomial.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introducing hypothesis testing via the binomial distribution</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../lessons/intro_to_normality_via_one_sample_tests.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introduction to normality and one-sample tests</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../lessons/contingency_analysis.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Compare proportions among groups</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../lessons/compare_means_among_groups.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Compare means among groups</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../lessons/more_ANOVAs.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">More ANOVAs</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../lessons/realationships_among_numerical_variables.qmd" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Relationships among numerical variables</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -259,15 +126,15 @@ div.csl-indent {
   <li><a href="#extra-material" id="toc-extra-material" class="nav-link" data-scroll-target="#extra-material">Extra material</a></li>
   <li><a href="#data-referenced-in-class" id="toc-data-referenced-in-class" class="nav-link" data-scroll-target="#data-referenced-in-class">Data referenced in class</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/jsgosnell/cuny_biostats_website/edit/main/lessons/contingency_analysis.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jsgosnell/cuny_biostats_website/blob/main/lessons/contingency_analysis.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/jsgosnell/cuny_biostats_website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/jsgosnell/cuny_biostats_website/edit/main/lessons/relationships_among_numerical_variables.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jsgosnell/cuny_biostats_website/blob/main/lessons/relationships_among_numerical_variables.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/jsgosnell/cuny_biostats_website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lessons/welcome_and_introduction.html">Lessons</a></li><li class="breadcrumb-item"><a href="../lessons/contingency_analysis.html">Compare proportions among groups</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Compare proportions among groups</h1>
-<p class="subtitle lead">Contingency analysis</p>
+<h1 class="title">Relationships among numerical variables</h1>
+<p class="subtitle lead">aka, Linear regression and correlation</p>
 </div>
 
 
@@ -287,23 +154,26 @@ div.csl-indent {
 <!-- COMMENT NOT SHOW IN ANY OUTPUT: Code chunk below sets overall defaults for .qmd file; these inlcude showing output by default and looking for files relative to .Rpoj file, not .qmd file, which makes putting filesin different folders easier  -->
 <section id="objective" class="level2">
 <h2 class="anchored" data-anchor-id="objective">Objective</h2>
-<p>To introduce students to tests the idea of comparing groups and associated hypotheses via contingency analysis. By the end of the lesson, you should be able to</p>
+<p>Here we will extend our use of linear models to include numerical predictors.<br>
+By the end of the lesson, students should be able to</p>
 <ul>
-<li>define and carry out contingency analysis</li>
-<li>produce null and alternative hypotheses for comparing 2+ populations</li>
-<li>define the issue of family-wise error rate and possible solutions</li>
+<li>define and compare regression and correlation</li>
+<li>carry out these processes in R</li>
 </ul>
 </section>
 <section id="background-reading" class="level2">
 <h2 class="anchored" data-anchor-id="background-reading">Background reading</h2>
 <p>Course notes links for background reading also contain code used to produce R output used in slides.</p>
 <ul>
-<li><a href="https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Compare_proportions_among_populations.html" target="_blank">https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Compare_proportions_among_populations.html</a></li>
+<li><a href="https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Relationships_among_numerical_variables.html" target="_blank">https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Relationships_among_numerical_variables.html</a></li>
 </ul>
 </section>
 <section id="lecture-slides-click-to-open-in-google-slides" class="level2">
-<h2 class="anchored" data-anchor-id="lecture-slides-click-to-open-in-google-slides"><a href="https://docs.google.com/presentation/d/1xsYPCNVGhV0RA33x6XtF0i1zhq9uWw2Qv08Iy3dptNM/edit?usp=sharing" target="_blank">Lecture slides (click to open in Google slides!)</a></h2>
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQykVxAo_2bCH5IK1EH4Ix4Zq5LtCo1S4wtq-RNgLivFCInG_2PerwQXG5zmGEEI_T2MPol6m4xgjcL/embed?start=false&amp;loop=false&amp;delayms=60000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<h2 class="anchored" data-anchor-id="lecture-slides-click-to-open-in-google-slides"><a href="https://docs.google.com/presentation/d/1A4xcAwSrnKi79X54HIrwdrbNVagTk7zqHSO2knnDdAM/edit?usp=sharing" target="_blank">Lecture slides (click to open in Google slides!)</a></h2>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQzagvui3xZyC4XB3BikoRP5VxjGhwGk0NNbQTmXImR3eKjSE5-sVXSnzwuQ7V8DedTIwbH3zWxSbvu/embed?start=false&amp;loop=false&amp;delayms=60000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+
 </section>
 <section id="connected-swirl-lesson" class="level2">
 <h2 class="anchored" data-anchor-id="connected-swirl-lesson">Connected swirl lesson</h2>
@@ -325,7 +195,7 @@ div.csl-indent {
 </ul></li>
 <li><p>then follow the on-screen prompts to select the JSG_swirl_lessons course and the lessons you want</p>
 <ul>
-<li>Here we will focus on the <strong>Compare proportions among groups</strong> lesson</li>
+<li>Here we will focus on the <strong>Relationships among numerical variables</strong> lesson</li>
 </ul></li>
 <li><p>TIP: If you are seeing duplicate courses (or odd versions of each), you can clear all courses and then re-download the courses by</p>
 <ul>
@@ -346,35 +216,21 @@ div.csl-indent {
 </ul>
 </section>
 <section id="connected-assignmentclick-here" class="level2">
-<h2 class="anchored" data-anchor-id="connected-assignmentclick-here"><a href="https://jsgosnell.github.io/cuny_biostats_book/content/practice_problems/5_Contingency_analysis.html" target="_blank">Connected assignment(click here)</a></h2>
+<h2 class="anchored" data-anchor-id="connected-assignmentclick-here"><a href="https://jsgosnell.github.io/cuny_biostats_book/content/practice_problems/8_Relationships_among_numerical_variables.html" target="_blank">Connected assignment(click here)</a></h2>
 <p>Using these skills and applying concepts correctly to interpret data sets may seem easy when you read about them or listen during class, but practice is key to ensuring you understand the material. Practice problems are provided for each lesson. The link above points you to the appropriate link in the <a href="https://jsgosnell.github.io/cuny_biostats_book/" target="_blank">course notes</a>. You can make a copy (technically a <em>fork</em>, since you can’t directly edit it) of the entire course notes website in github @ <a href="https://github.com/jsgosnell/cuny_biostats_book" target="_blank">https://github.com/jsgosnell/cuny_biostats_book</a> and work from there. The benefit is this allows you to see updates to the site (if you sync your fork). The downside is you have to work interactively or build the entire site when you render a changed file. This is doable but may take more time than students need. Alternatively, you can download just the practice problems @ <a href="https://github.com/jsgosnell/cuny_biostats_practice_problems" target="_blank">https://github.com/jsgosnell/cuny_biostats_practice_problems</a>. Your instructor may also provide alternative problems or use a different delivery method (like github classroom).</p>
 <p><strong>In general you should only work edit .qmd files! Everything/anything else is produced during the session and should not be edited. All files can be uploaded to github though.</strong></p>
 <p>Solutions are also provided for all problems via the <a href="https://jsgosnell.github.io/cuny_biostats_book/" target="_blank">course notes</a>, but try them before you look at the answers!</p>
 </section>
 <section id="extra-material" class="level2">
 <h2 class="anchored" data-anchor-id="extra-material">Extra material</h2>
-<ul>
-<li><span class="citation" data-cites="davies1998">Davies, Crombie, and Tavakoli (<a href="#ref-davies1998" role="doc-biblioref">1998</a>)</span></li>
-</ul>
 </section>
 <section id="data-referenced-in-class" class="level2">
 <h2 class="anchored" data-anchor-id="data-referenced-in-class">Data referenced in class</h2>
-<ul>
-<li><span class="citation" data-cites="klem1989">Klem (<a href="#ref-klem1989" role="doc-biblioref">1989</a>)</span></li>
-</ul>
-
 
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-davies1998" class="csl-entry" role="listitem">
-Davies, Huw Talfryn Oakley, Iain Kinloch Crombie, and Manouche Tavakoli. 1998. <span>“When Can Odds Ratios Mislead?”</span> <em>BMJ</em> 316 (7136): 989–91. <a href="https://doi.org/10.1136/bmj.316.7136.989">https://doi.org/10.1136/bmj.316.7136.989</a>.
-</div>
-<div id="ref-klem1989" class="csl-entry" role="listitem">
-Klem, D. 1989. <span>“Bird: Window Collisions.”</span> <em>The Wilson Bulletin</em> 101 (4): 606–20. <a href="https://www.jstor.org/stable/4162790">https://www.jstor.org/stable/4162790</a>.
-</div>
-</div></section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -906,18 +762,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../lessons/intro_to_normality_via_one_sample_tests.html" class="pagination-link  aria-label=" introduction="" to="" normality="" and="" one-sample="" tests"="">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Introduction to normality and one-sample tests</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../lessons/compare_means_among_groups.html" class="pagination-link" aria-label="Compare means among groups">
-        <span class="nav-page-text">Compare means among groups</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -926,7 +770,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
 <p><a href="https://jsgosnell.github.io/cuny_biostats_book/">Course notes</a> &amp; <a href="https://jsgosnell.github.io/cuny_biostats_website/">slides</a></p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jsgosnell/cuny_biostats_website/edit/main/lessons/contingency_analysis.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jsgosnell/cuny_biostats_website/blob/main/lessons/contingency_analysis.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/jsgosnell/cuny_biostats_website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jsgosnell/cuny_biostats_website/edit/main/lessons/relationships_among_numerical_variables.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jsgosnell/cuny_biostats_website/blob/main/lessons/relationships_among_numerical_variables.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/jsgosnell/cuny_biostats_website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
