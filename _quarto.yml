@@ -54,9 +54,10 @@ website:
             text: Compare proportions among groups
           - href: lessons/compare_means_among_groups.qmd
             text: Compare means among groups
-          - href: lessons/More_ANOVAs.qmd
+          - href: lessons/more_ANOVAs.qmd
             text: More ANOVAs
-            
+          - href: lessons/realationships_among_numerical_variables.qmd
+            text: Relationships among numerical variables            
 format:
   html:
     theme:
