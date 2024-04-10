@@ -59,56 +59,88 @@
     "href": "lessons/relationships_among_numerical_variables.html",
     "title": "Relationships among numerical variables",
     "section": "",
-    "text": "Here we will extend our use of linear models to include numerical predictors.\nBy the end of the lesson, students should be able to\n\ndefine and compare regression and correlation\ncarry out these processes in R"
+    "text": "Here we will extend our use of linear models to include numerical predictors.\nBy the end of the lesson, students should be able to\n\ndefine and compare regression and correlation\ncarry out these processes in R",
+    "crumbs": [
+      "Lessons",
+      "Relationships among numerical variables"
+    ]
   },
   {
     "objectID": "lessons/relationships_among_numerical_variables.html#objective",
     "href": "lessons/relationships_among_numerical_variables.html#objective",
     "title": "Relationships among numerical variables",
     "section": "",
-    "text": "Here we will extend our use of linear models to include numerical predictors.\nBy the end of the lesson, students should be able to\n\ndefine and compare regression and correlation\ncarry out these processes in R"
+    "text": "Here we will extend our use of linear models to include numerical predictors.\nBy the end of the lesson, students should be able to\n\ndefine and compare regression and correlation\ncarry out these processes in R",
+    "crumbs": [
+      "Lessons",
+      "Relationships among numerical variables"
+    ]
   },
   {
     "objectID": "lessons/relationships_among_numerical_variables.html#background-reading",
     "href": "lessons/relationships_among_numerical_variables.html#background-reading",
     "title": "Relationships among numerical variables",
     "section": "Background reading",
-    "text": "Background reading\nCourse notes links for background reading also contain code used to produce R output used in slides.\n\nhttps://jsgosnell.github.io/cuny_biostats_book/content/chapters/Relationships_among_numerical_variables.html"
+    "text": "Background reading\nCourse notes links for background reading also contain code used to produce R output used in slides.\n\nhttps://jsgosnell.github.io/cuny_biostats_book/content/chapters/Relationships_among_numerical_variables.html",
+    "crumbs": [
+      "Lessons",
+      "Relationships among numerical variables"
+    ]
   },
   {
     "objectID": "lessons/relationships_among_numerical_variables.html#lecture-slides-click-to-open-in-google-slides",
     "href": "lessons/relationships_among_numerical_variables.html#lecture-slides-click-to-open-in-google-slides",
     "title": "Relationships among numerical variables",
     "section": "Lecture slides (click to open in Google slides!)",
-    "text": "Lecture slides (click to open in Google slides!)"
+    "text": "Lecture slides (click to open in Google slides!)",
+    "crumbs": [
+      "Lessons",
+      "Relationships among numerical variables"
+    ]
   },
   {
     "objectID": "lessons/relationships_among_numerical_variables.html#connected-swirl-lesson",
     "href": "lessons/relationships_among_numerical_variables.html#connected-swirl-lesson",
     "title": "Relationships among numerical variables",
     "section": "Connected swirl lesson",
-    "text": "Connected swirl lesson\nSwirl is an R package that provides guided lessons to help you learn and review material. These lessons should serve as a bridge between all the code provided in the slides and background reading and the key functions and concepts from each lesson. A full course lesson (all lessons combined) can also be downloaded using the following instructions.\nTHIS IS ONE OF THE FEW TIMES I RECOMMEND WORKING DIRECTLY IN THE CONSOLE! THERE IS NO NEED TO DEVELOP A SCRIPT FOR THESE INTERACTIVE SESSIONS, THOUGH YOU CAN!\n\ninstall the “swirl” package\nrun the following code once on the computer to install a new course\n\nlibrary(swirl)\ninstall_course_github(\"jsgosnell\", \"JSG_swirl_lessons\")\n\nstart swirl!\n\nswirl()\n\n\nswirl()\n\nthen follow the on-screen prompts to select the JSG_swirl_lessons course and the lessons you want\n\nHere we will focus on the Relationships among numerical variables lesson\n\nTIP: If you are seeing duplicate courses (or odd versions of each), you can clear all courses and then re-download the courses by\n\nexiting swirl using escape key or bye() function\n\nbye()\n\nuninstalling and reinstalling courses\n\nuninstall_all_courses()\ninstall_course_github(\"jsgosnell\", \"JSG_swirl_lessons\")\n\nwhen you restart swirl with swirl(), you may need to select\n\nNo. Let me start something new"
+    "text": "Connected swirl lesson\nSwirl is an R package that provides guided lessons to help you learn and review material. These lessons should serve as a bridge between all the code provided in the slides and background reading and the key functions and concepts from each lesson. A full course lesson (all lessons combined) can also be downloaded using the following instructions.\nTHIS IS ONE OF THE FEW TIMES I RECOMMEND WORKING DIRECTLY IN THE CONSOLE! THERE IS NO NEED TO DEVELOP A SCRIPT FOR THESE INTERACTIVE SESSIONS, THOUGH YOU CAN!\n\ninstall the “swirl” package\nrun the following code once on the computer to install a new course\n\nlibrary(swirl)\ninstall_course_github(\"jsgosnell\", \"JSG_swirl_lessons\")\n\nstart swirl!\n\nswirl()\n\n\nswirl()\n\nthen follow the on-screen prompts to select the JSG_swirl_lessons course and the lessons you want\n\nHere we will focus on the Relationships among numerical variables lesson\n\nTIP: If you are seeing duplicate courses (or odd versions of each), you can clear all courses and then re-download the courses by\n\nexiting swirl using escape key or bye() function\n\nbye()\n\nuninstalling and reinstalling courses\n\nuninstall_all_courses()\ninstall_course_github(\"jsgosnell\", \"JSG_swirl_lessons\")\n\nwhen you restart swirl with swirl(), you may need to select\n\nNo. Let me start something new",
+    "crumbs": [
+      "Lessons",
+      "Relationships among numerical variables"
+    ]
   },
   {
     "objectID": "lessons/relationships_among_numerical_variables.html#connected-assignmentclick-here",
     "href": "lessons/relationships_among_numerical_variables.html#connected-assignmentclick-here",
     "title": "Relationships among numerical variables",
     "section": "Connected assignment(click here)",
-    "text": "Connected assignment(click here)\nUsing these skills and applying concepts correctly to interpret data sets may seem easy when you read about them or listen during class, but practice is key to ensuring you understand the material. Practice problems are provided for each lesson. The link above points you to the appropriate link in the course notes. You can make a copy (technically a fork, since you can’t directly edit it) of the entire course notes website in github @ https://github.com/jsgosnell/cuny_biostats_book and work from there. The benefit is this allows you to see updates to the site (if you sync your fork). The downside is you have to work interactively or build the entire site when you render a changed file. This is doable but may take more time than students need. Alternatively, you can download just the practice problems @ https://github.com/jsgosnell/cuny_biostats_practice_problems. Your instructor may also provide alternative problems or use a different delivery method (like github classroom).\nIn general you should only work edit .qmd files! Everything/anything else is produced during the session and should not be edited. All files can be uploaded to github though.\nSolutions are also provided for all problems via the course notes, but try them before you look at the answers!"
+    "text": "Connected assignment(click here)\nUsing these skills and applying concepts correctly to interpret data sets may seem easy when you read about them or listen during class, but practice is key to ensuring you understand the material. Practice problems are provided for each lesson. The link above points you to the appropriate link in the course notes. You can make a copy (technically a fork, since you can’t directly edit it) of the entire course notes website in github @ https://github.com/jsgosnell/cuny_biostats_book and work from there. The benefit is this allows you to see updates to the site (if you sync your fork). The downside is you have to work interactively or build the entire site when you render a changed file. This is doable but may take more time than students need. Alternatively, you can download just the practice problems @ https://github.com/jsgosnell/cuny_biostats_practice_problems. Your instructor may also provide alternative problems or use a different delivery method (like github classroom).\nIn general you should only work edit .qmd files! Everything/anything else is produced during the session and should not be edited. All files can be uploaded to github though.\nSolutions are also provided for all problems via the course notes, but try them before you look at the answers!",
+    "crumbs": [
+      "Lessons",
+      "Relationships among numerical variables"
+    ]
   },
   {
     "objectID": "lessons/relationships_among_numerical_variables.html#extra-material",
     "href": "lessons/relationships_among_numerical_variables.html#extra-material",
     "title": "Relationships among numerical variables",
     "section": "Extra material",
-    "text": "Extra material"
+    "text": "Extra material",
+    "crumbs": [
+      "Lessons",
+      "Relationships among numerical variables"
+    ]
   },
   {
     "objectID": "lessons/relationships_among_numerical_variables.html#data-referenced-in-class",
     "href": "lessons/relationships_among_numerical_variables.html#data-referenced-in-class",
     "title": "Relationships among numerical variables",
     "section": "Data referenced in class",
-    "text": "Data referenced in class"
+    "text": "Data referenced in class",
+    "crumbs": [
+      "Lessons",
+      "Relationships among numerical variables"
+    ]
   },
   {
     "objectID": "lessons/intro_to_normality_via_one_sample_tests.html",
