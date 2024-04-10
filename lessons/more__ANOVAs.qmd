@@ -14,7 +14,7 @@ knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
 ## Objective
 
 Here we will extend our use of ANOVAs (and linear models) to consider
-how multiple categorical variables impact an outcome. By the end of the
+how multiple categorical variables impact a continuous response variable/outcome. By the end of the
 lesson, students should be able to
 
 -   define interactions and blocking
