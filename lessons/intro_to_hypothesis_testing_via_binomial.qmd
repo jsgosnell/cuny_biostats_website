@@ -106,16 +106,15 @@ problems are provided for each lesson. The link above points you to the
 appropriate link in the [course
 notes](https://jsgosnell.github.io/cuny_biostats_book/){target="_blank"}.
 You can make a copy (technically a *fork*, since you can't directly edit
-it) of the entire course notes website in github @
+it) of the entire course notes website in github \@
 [https://github.com/jsgosnell/cuny_biostats_book](https://github.com/jsgosnell/cuny_biostats_book){target="_blank"}
 and work from there. The benefit is this allows you to see updates to
 the site (if you sync your fork). The downside is you have to work
 interactively or build the entire site when you render a changed file.
-This is doable but may take more time than students need. Alternatively,
-you can download just the practice problems @
-[https://github.com/jsgosnell/cuny_biostats_practice_problems](https://github.com/jsgosnell/cuny_biostats_practice_problems){target="_blank"}.
-Your instructor may also provide alternative problems or use a different
-delivery method (like github classroom).
+This is doable but may take more time than students need (and may lead to merge issues!). 
+
+Alternatively,your instructor may use a different
+delivery method (like github classroom) or provide alternative problems.
 
 **In general you should only work edit .qmd files!  Everything/anything else is produced during the session and should not be edited. All files can be uploaded to github though.** 
 
