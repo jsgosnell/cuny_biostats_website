@@ -409,49 +409,77 @@
     "href": "lessons/combining_numerical_and_categorical_predictors.html",
     "title": "Combining (lots of) numerical and categorical predictors",
     "section": "",
-    "text": "Here we will extend our use of linear models to include both categorical and numerical predictors.\nBy the end of the lesson, students should be able to\n\ndefine ANCOVAs and multiple regression\ncarry out these processes in R"
+    "text": "Here we will extend our use of linear models to include both categorical and numerical predictors.\nBy the end of the lesson, students should be able to\n\ndefine ANCOVAs and multiple regression\ncarry out these processes in R",
+    "crumbs": [
+      "Lessons",
+      "Combining numerical and categorical predictors"
+    ]
   },
   {
     "objectID": "lessons/combining_numerical_and_categorical_predictors.html#objective",
     "href": "lessons/combining_numerical_and_categorical_predictors.html#objective",
     "title": "Combining (lots of) numerical and categorical predictors",
     "section": "",
-    "text": "Here we will extend our use of linear models to include both categorical and numerical predictors.\nBy the end of the lesson, students should be able to\n\ndefine ANCOVAs and multiple regression\ncarry out these processes in R"
+    "text": "Here we will extend our use of linear models to include both categorical and numerical predictors.\nBy the end of the lesson, students should be able to\n\ndefine ANCOVAs and multiple regression\ncarry out these processes in R",
+    "crumbs": [
+      "Lessons",
+      "Combining numerical and categorical predictors"
+    ]
   },
   {
     "objectID": "lessons/combining_numerical_and_categorical_predictors.html#background-reading",
     "href": "lessons/combining_numerical_and_categorical_predictors.html#background-reading",
     "title": "Combining (lots of) numerical and categorical predictors",
     "section": "Background reading",
-    "text": "Background reading\nCourse notes links for background reading also contain code used to produce R output used in slides.\n\nhttps://jsgosnell.github.io/cuny_biostats_book/content/chapters/Combining_numerical_and_categorical_predictors.html"
+    "text": "Background reading\nCourse notes links for background reading also contain code used to produce R output used in slides.\n\nhttps://jsgosnell.github.io/cuny_biostats_book/content/chapters/Combining_numerical_and_categorical_predictors.html",
+    "crumbs": [
+      "Lessons",
+      "Combining numerical and categorical predictors"
+    ]
   },
   {
     "objectID": "lessons/combining_numerical_and_categorical_predictors.html#lecture-slides-click-to-open-in-google-slides",
     "href": "lessons/combining_numerical_and_categorical_predictors.html#lecture-slides-click-to-open-in-google-slides",
     "title": "Combining (lots of) numerical and categorical predictors",
     "section": "Lecture slides (click to open in Google slides!)",
-    "text": "Lecture slides (click to open in Google slides!)"
+    "text": "Lecture slides (click to open in Google slides!)",
+    "crumbs": [
+      "Lessons",
+      "Combining numerical and categorical predictors"
+    ]
   },
   {
     "objectID": "lessons/combining_numerical_and_categorical_predictors.html#connected-assignmentclick-herehttpsjsgosnell.github.iocuny_biostats_bookcontentpractice_problems9_combining_numerical_and_categorical_predictors.html",
     "href": "lessons/combining_numerical_and_categorical_predictors.html#connected-assignmentclick-herehttpsjsgosnell.github.iocuny_biostats_bookcontentpractice_problems9_combining_numerical_and_categorical_predictors.html",
     "title": "Combining (lots of) numerical and categorical predictors",
     "section": "[Connected assignment(click here)]https://jsgosnell.github.io/cuny_biostats_book/content/practice_problems/9_Combining_numerical_and_categorical_predictors.html)",
-    "text": "[Connected assignment(click here)]https://jsgosnell.github.io/cuny_biostats_book/content/practice_problems/9_Combining_numerical_and_categorical_predictors.html)\nUsing these skills and applying concepts correctly to interpret data sets may seem easy when you read about them or listen during class, but practice is key to ensuring you understand the material. Practice problems are provided for each lesson. The link above points you to the appropriate link in the course notes. You can make a copy (technically a fork, since you can’t directly edit it) of the entire course notes website in github @ https://github.com/jsgosnell/cuny_biostats_book and work from there. The benefit is this allows you to see updates to the site (if you sync your fork). The downside is you have to work interactively or build the entire site when you render a changed file. This is doable but may take more time than students need (and may lead to merge issues!).\nAlternatively,your instructor may use a different delivery method (like github classroom) or provide alternative problems.\nIn general you should only work edit .qmd files! Everything/anything else is produced during the session and should not be edited. All files can be uploaded to github though.\nSolutions are also provided for all problems via the course notes, but try them before you look at the answers!"
+    "text": "[Connected assignment(click here)]https://jsgosnell.github.io/cuny_biostats_book/content/practice_problems/9_Combining_numerical_and_categorical_predictors.html)\nUsing these skills and applying concepts correctly to interpret data sets may seem easy when you read about them or listen during class, but practice is key to ensuring you understand the material. Practice problems are provided for each lesson. The link above points you to the appropriate link in the course notes. You can make a copy (technically a fork, since you can’t directly edit it) of the entire course notes website in github @ https://github.com/jsgosnell/cuny_biostats_book and work from there. The benefit is this allows you to see updates to the site (if you sync your fork). The downside is you have to work interactively or build the entire site when you render a changed file. This is doable but may take more time than students need (and may lead to merge issues!).\nAlternatively,your instructor may use a different delivery method (like github classroom) or provide alternative problems.\nIn general you should only work edit .qmd files! Everything/anything else is produced during the session and should not be edited. All files can be uploaded to github though.\nSolutions are also provided for all problems via the course notes, but try them before you look at the answers!",
+    "crumbs": [
+      "Lessons",
+      "Combining numerical and categorical predictors"
+    ]
   },
   {
     "objectID": "lessons/combining_numerical_and_categorical_predictors.html#extra-material",
     "href": "lessons/combining_numerical_and_categorical_predictors.html#extra-material",
     "title": "Combining (lots of) numerical and categorical predictors",
     "section": "Extra material",
-    "text": "Extra material"
+    "text": "Extra material",
+    "crumbs": [
+      "Lessons",
+      "Combining numerical and categorical predictors"
+    ]
   },
   {
     "objectID": "lessons/combining_numerical_and_categorical_predictors.html#data-referenced-in-class",
     "href": "lessons/combining_numerical_and_categorical_predictors.html#data-referenced-in-class",
     "title": "Combining (lots of) numerical and categorical predictors",
     "section": "Data referenced in class",
-    "text": "Data referenced in class"
+    "text": "Data referenced in class",
+    "crumbs": [
+      "Lessons",
+      "Combining numerical and categorical predictors"
+    ]
   },
   {
     "objectID": "lessons/contingency_analysis.html",
