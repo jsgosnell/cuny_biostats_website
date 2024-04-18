@@ -57,7 +57,9 @@ website:
           - href: lessons/more_ANOVAs.qmd
             text: More ANOVAs
           - href: lessons/relationships_among_numerical_variables.qmd
-            text: Relationships among numerical variables            
+            text: Relationships among numerical variables
+          - href: lessons/combining_numerical_and_categorical_predictors.qmd
+            text: Combining numerical and categorical predictors  
 format:
   html:
     theme:
