@@ -26,7 +26,7 @@ produce R output used in slides.
 
 -   [https://jsgosnell.github.io/cuny_biostats_book/content/chapters/More_ANOVAs.html](https://jsgosnell.github.io/cuny_biostats_book/content/chapters/More_ANOVAs.html){target="_blank"}
 
-## [Lecture slides (click to open in Google slides!)](https://docs.google.com/presentation/d/1A4xcAwSrnKi79X54HIrwdrbNVagTk7zqHSO2knnDdAM/edit?usp=sharing){target="_blank"}
+## [Lecture slides (click to open in Google slides!)](https://docs.google.com/presentation/d/1pJ8rj-sTjh-kBnLHLtm08M6lJ_HXSKjTVlrTtYGyE6c/edit?usp=sharing){target="_blank"}
 
 ```{=html}
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSDn1bGkQbicTycoXdAT9Ja_kZAP9w3tjAHE6Gd1-oNcS2FSKhFSvraUUr2-40jwxlhqm8-hM6smC85/embed?start=false&loop=false&delayms60000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

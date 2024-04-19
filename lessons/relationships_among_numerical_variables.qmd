@@ -26,7 +26,7 @@ produce R output used in slides.
 
 -   [https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Relationships_among_numerical_variables.html](https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Relationships_among_numerical_variables.html){target="_blank"}
 
-## [Lecture slides (click to open in Google slides!)](https://docs.google.com/presentation/d/1A4xcAwSrnKi79X54HIrwdrbNVagTk7zqHSO2knnDdAM/edit?usp=sharing){target="_blank"}
+## [Lecture slides (click to open in Google slides!)](https://docs.google.com/presentation/d/1WFqvTx-oEVzHr0w1crZHaF_aMezW1tbzzvLv22FSN-A/edit?usp=sharing){target="_blank"}
 
 ```{=html}
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQzagvui3xZyC4XB3BikoRP5VxjGhwGk0NNbQTmXImR3eKjSE5-sVXSnzwuQ7V8DedTIwbH3zWxSbvu/embed?start=false&loop=false&delayms=60000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
