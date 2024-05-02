@@ -91,50 +91,50 @@
     "text": "Data referenced in class"
   },
   {
-    "objectID": "lessons/Linear_models_extensions.html",
-    "href": "lessons/Linear_models_extensions.html",
+    "objectID": "lessons/linear_models_extensions.html",
+    "href": "lessons/linear_models_extensions.html",
     "title": "Extending linear models",
     "section": "",
     "text": "Here we will consider the robustness of linear models to broken assumption. We will also extend the model to account for assumptions. This module should be seen as a brief introduction to other techniques; many of these approaches could be the focus of upper-level classes.\nBy the end of the lesson, students should be able to\n\nexplain when linear models can be used despite broken assumptions\nextend linear models using\n\ndata transformations\ngeneralized linear models\nnon-linear models\nrandom effects\nweighted least squares"
   },
   {
-    "objectID": "lessons/Linear_models_extensions.html#objective",
-    "href": "lessons/Linear_models_extensions.html#objective",
+    "objectID": "lessons/linear_models_extensions.html#objective",
+    "href": "lessons/linear_models_extensions.html#objective",
     "title": "Extending linear models",
     "section": "",
     "text": "Here we will consider the robustness of linear models to broken assumption. We will also extend the model to account for assumptions. This module should be seen as a brief introduction to other techniques; many of these approaches could be the focus of upper-level classes.\nBy the end of the lesson, students should be able to\n\nexplain when linear models can be used despite broken assumptions\nextend linear models using\n\ndata transformations\ngeneralized linear models\nnon-linear models\nrandom effects\nweighted least squares"
   },
   {
-    "objectID": "lessons/Linear_models_extensions.html#background-reading",
-    "href": "lessons/Linear_models_extensions.html#background-reading",
+    "objectID": "lessons/linear_models_extensions.html#background-reading",
+    "href": "lessons/linear_models_extensions.html#background-reading",
     "title": "Extending linear models",
     "section": "Background reading",
     "text": "Background reading\nCourse notes links for background reading also contain code used to produce R output used in slides.\n\nhttps://jsgosnell.github.io/cuny_biostats_book/content/chapters/Linear_model_extensions.html"
   },
   {
-    "objectID": "lessons/Linear_models_extensions.html#lecture-slides-click-to-open-in-google-slides",
-    "href": "lessons/Linear_models_extensions.html#lecture-slides-click-to-open-in-google-slides",
+    "objectID": "lessons/linear_models_extensions.html#lecture-slides-click-to-open-in-google-slides",
+    "href": "lessons/linear_models_extensions.html#lecture-slides-click-to-open-in-google-slides",
     "title": "Extending linear models",
     "section": "Lecture slides (click to open in Google slides!)",
     "text": "Lecture slides (click to open in Google slides!)"
   },
   {
-    "objectID": "lessons/Linear_models_extensions.html#connected-assignmentclick-here",
-    "href": "lessons/Linear_models_extensions.html#connected-assignmentclick-here",
+    "objectID": "lessons/linear_models_extensions.html#connected-assignmentclick-here",
+    "href": "lessons/linear_models_extensions.html#connected-assignmentclick-here",
     "title": "Extending linear models",
     "section": "Connected assignment(click here)",
     "text": "Connected assignment(click here)\nUsing these skills and applying concepts correctly to interpret data sets may seem easy when you read about them or listen during class, but practice is key to ensuring you understand the material. Practice problems are provided for each lesson. The link above points you to the appropriate link in the course notes. You can make a copy (technically a fork, since you can’t directly edit it) of the entire course notes website in github @ https://github.com/jsgosnell/cuny_biostats_book and work from there. The benefit is this allows you to see updates to the site (if you sync your fork). The downside is you have to work interactively or build the entire site when you render a changed file. This is doable but may take more time than students need (and may lead to merge issues!).\nAlternatively,your instructor may use a different delivery method (like github classroom) or provide alternative problems.\nIn general you should only work edit .qmd files! Everything/anything else is produced during the session and should not be edited. All files can be uploaded to github though.\nSolutions are also provided for all problems via the course notes, but try them before you look at the answers!"
   },
   {
-    "objectID": "lessons/Linear_models_extensions.html#extra-material",
-    "href": "lessons/Linear_models_extensions.html#extra-material",
+    "objectID": "lessons/linear_models_extensions.html#extra-material",
+    "href": "lessons/linear_models_extensions.html#extra-material",
     "title": "Extending linear models",
     "section": "Extra material",
     "text": "Extra material"
   },
   {
-    "objectID": "lessons/Linear_models_extensions.html#data-referenced-in-class",
-    "href": "lessons/Linear_models_extensions.html#data-referenced-in-class",
+    "objectID": "lessons/linear_models_extensions.html#data-referenced-in-class",
+    "href": "lessons/linear_models_extensions.html#data-referenced-in-class",
     "title": "Extending linear models",
     "section": "Data referenced in class",
     "text": "Data referenced in class"
@@ -317,49 +317,49 @@
   {
     "objectID": "lessons/bayesian_analysis.html",
     "href": "lessons/bayesian_analysis.html",
-    "title": "Extending linear models",
+    "title": "Bayesian analysis",
     "section": "",
-    "text": "Here we will consider the robustness of linear models to broken assumption. We will also extend the model to account for assumptions. This module should be seen as a brief introduction to other techniques; many of these approaches could be the focus of upper-level classes.\nBy the end of the lesson, students should be able to\n\nexplain when linear models can be used despite broken assumptions\nextend linear models using\n\ndata transformations\ngeneralized linear models\nnon-linear models\nrandom effects\nweighted least squares"
+    "text": "Here we will consider an alternative to the null hypothesis significance testing paradigm (NHST) that we have been using in class. The goal is to introduce you to Bayesian analysis. By the end of the module, you should be able to\n\ncarry out analyses we have used linear models to address from a Bayesian perspective\ndefine credible interval and compare it to confidence interval\ndefine posterior distributions and discuss why sampling methods are sometimes required to describe them"
   },
   {
     "objectID": "lessons/bayesian_analysis.html#objective",
     "href": "lessons/bayesian_analysis.html#objective",
-    "title": "Extending linear models",
+    "title": "Bayesian analysis",
     "section": "",
-    "text": "Here we will consider the robustness of linear models to broken assumption. We will also extend the model to account for assumptions. This module should be seen as a brief introduction to other techniques; many of these approaches could be the focus of upper-level classes.\nBy the end of the lesson, students should be able to\n\nexplain when linear models can be used despite broken assumptions\nextend linear models using\n\ndata transformations\ngeneralized linear models\nnon-linear models\nrandom effects\nweighted least squares"
+    "text": "Here we will consider an alternative to the null hypothesis significance testing paradigm (NHST) that we have been using in class. The goal is to introduce you to Bayesian analysis. By the end of the module, you should be able to\n\ncarry out analyses we have used linear models to address from a Bayesian perspective\ndefine credible interval and compare it to confidence interval\ndefine posterior distributions and discuss why sampling methods are sometimes required to describe them"
   },
   {
     "objectID": "lessons/bayesian_analysis.html#background-reading",
     "href": "lessons/bayesian_analysis.html#background-reading",
-    "title": "Extending linear models",
+    "title": "Bayesian analysis",
     "section": "Background reading",
     "text": "Background reading\nCourse notes links for background reading also contain code used to produce R output used in slides.\n\nhttps://jsgosnell.github.io/cuny_biostats_book/content/chapters/bayesian_analysis.html"
   },
   {
     "objectID": "lessons/bayesian_analysis.html#lecture-slides-click-to-open-in-google-slides",
     "href": "lessons/bayesian_analysis.html#lecture-slides-click-to-open-in-google-slides",
-    "title": "Extending linear models",
+    "title": "Bayesian analysis",
     "section": "Lecture slides (click to open in Google slides!)",
     "text": "Lecture slides (click to open in Google slides!)"
   },
   {
     "objectID": "lessons/bayesian_analysis.html#connected-assignmentclick-here",
     "href": "lessons/bayesian_analysis.html#connected-assignmentclick-here",
-    "title": "Extending linear models",
+    "title": "Bayesian analysis",
     "section": "Connected assignment(click here)",
     "text": "Connected assignment(click here)\nUsing these skills and applying concepts correctly to interpret data sets may seem easy when you read about them or listen during class, but practice is key to ensuring you understand the material. Practice problems are provided for each lesson. The link above points you to the appropriate link in the course notes. You can make a copy (technically a fork, since you can’t directly edit it) of the entire course notes website in github @ https://github.com/jsgosnell/cuny_biostats_book and work from there. The benefit is this allows you to see updates to the site (if you sync your fork). The downside is you have to work interactively or build the entire site when you render a changed file. This is doable but may take more time than students need (and may lead to merge issues!).\nAlternatively,your instructor may use a different delivery method (like github classroom) or provide alternative problems.\nIn general you should only work edit .qmd files! Everything/anything else is produced during the session and should not be edited. All files can be uploaded to github though.\nSolutions are also provided for all problems via the course notes, but try them before you look at the answers!"
   },
   {
     "objectID": "lessons/bayesian_analysis.html#extra-material",
     "href": "lessons/bayesian_analysis.html#extra-material",
-    "title": "Extending linear models",
+    "title": "Bayesian analysis",
     "section": "Extra material",
-    "text": "Extra material"
+    "text": "Extra material\n\nP-values\n\nhistory\n\nhttps://www.tandfonline.com/doi/full/10.1080/00031305.2018.1537891\nhttps://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2015.00223/full\n\nIssues\n\nhttps://www.nature.com/articles/d41586-019-00857-9\nhttps://www.nature.com/articles/d41586-019-00874-8\nhttps://www.vox.com/science-and-health/2018/9/19/17879102/brian-wansink-cornell-food-brand-lab-retractions-jama\n\n\nBayesian comparison\n\nGhosts!\n\nhttps://www.semanticscholar.org/paper/Feeling-the-future%3A-experimental-evidence-for-on-Bem/053428187307008d657c815c6b2dff7130750cb9?p2df\nhttps://www.ejwagenmakers.com/2011/Bem6.pdf https://www.psychologytoday.com/us/blog/one-among-many/201101/bem-bayes-and-the-limits-statistical-inference\n\nMonty Hall\nSampling\n\nhttps://towardsdatascience.com/a-zero-math-introduction-to-markov-chain-monte-carlo-methods-dcba889e0c50\n\nApproaches\n\nhttps://link.springer.com/article/10.3758/PBR.16.2.225\nhttps://bloomington.iu.edu/~kruschke/BEST/\nhttps://www.ejwagenmakers.com/2011/WetzelsEtAl2011_855.pdf\nhttps://www.flutterbys.com.au/stats/tut/tut7.4b.html\nhttps://www.sumsar.net/blog/2014/10/tiny-data-and-the-socks-of-karl-broman/\nhttps://statmodeling.stat.columbia.edu/2016/08/22/bayesian-inference-completely-solves-the-multiple-comparisons-problem/\n\nstan\n\nhttps://mc-stan.org/users/\nhttps://jrnold.github.io/bugs-examples-in-stan/index.html\nhttps://strengejacke.wordpress.com/2018/06/06/r-functions-for-bayesian-model-statistics-and-summaries-rstats-stan-brms/\n\nbrms\n\nhttps://www.r-bloggers.com/2022/04/bayesian-analyses-made-easy-glmms-in-r-package-brms/"
   },
   {
     "objectID": "lessons/bayesian_analysis.html#data-referenced-in-class",
     "href": "lessons/bayesian_analysis.html#data-referenced-in-class",
-    "title": "Extending linear models",
+    "title": "Bayesian analysis",
     "section": "Data referenced in class",
     "text": "Data referenced in class"
   },
