@@ -1,6 +1,6 @@
 ---
-title: Extending linear models
-subtitle: When to trust it, and how to fix it when it's broken
+title: Bayesian analysis
+subtitle: All about that Bayes
 bibliography: ../references.bib
 ---
 
@@ -13,37 +13,30 @@ knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
 
 ## Objective
 
-Here we will consider the robustness of linear models to broken
-assumption. We will also extend the model to account for assumptions.
-This module should be seen as a *brief* introduction to other
-techniques; many of these approaches could be the focus of upper-level
-classes.
+Here we will consider an alternative to the null hypothesis significance
+testing paradigm (NHST) that we have been using in class. The goal is to
+introduce you to Bayesian analysis. By the end of the module, you should
+be able to
 
-By the end of the lesson, students should be able to
-
--   explain when linear models can be used despite broken assumptions
--   extend linear models using
-    -   data transformations
-    -   generalized linear models
-    -   non-linear models
-    -   random effects
-    -   weighted least squares
+-   carry out analyses we have used linear models to address from a
+    Bayesian perspective
+-   define credible interval and compare it to confidence interval
+-   define posterior distributions and discuss why sampling methods are
+    sometimes required to describe them
 
 ## Background reading
 
 Course notes links for background reading also contain code used to
 produce R output used in slides.
 
--   [https://jsgosnell.github.io/cuny_biostats_book/content/chapters/bayesian_analysis.html](https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Linear_model_extensions.html){target="_blank"}
+-   [https://jsgosnell.github.io/cuny_biostats_book/content/chapters/bayesian_analysis.html](https://jsgosnell.github.io/cuny_biostats_book/content/chapters/bayesian_analysis.html){target="_blank"}
 
 ## [Lecture slides (click to open in Google slides!)](https://docs.google.com/presentation/d/1tAiUWnFGpD2l6VZ4Tf4ugtmU2CZmMutxBz7XVY7sdVs/edit?usp=sharing){target="_blank"}
-
 
 ```{=html}
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSFKDgLmaYtbAUrN7HJHBuidVAZPJvlMEO9ZzbQYXwqEVz43EpNqQQFI8QoAxJBqVvWGsz-E_bDixWT/embed?start=false&loop=false&delayms=60000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 ```
-
 ## [Connected assignment(click here)](https://jsgosnell.github.io/cuny_biostats_book/content/practice_problems/10_Linear_model_extensions.html){target="_blank"}
 
 Using these skills and applying concepts correctly to interpret data
@@ -73,5 +66,36 @@ notes](https://jsgosnell.github.io/cuny_biostats_book/){target="_blank"},
 but try them before you look at the answers!
 
 ## Extra material
+
+-   P-values
+    -   history
+        -   https://www.tandfonline.com/doi/full/10.1080/00031305.2018.1537891
+        -   https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2015.00223/full
+    -   Issues
+        -   https://www.nature.com/articles/d41586-019-00857-9
+        -   https://www.nature.com/articles/d41586-019-00874-8
+        -   https://www.vox.com/science-and-health/2018/9/19/17879102/brian-wansink-cornell-food-brand-lab-retractions-jama
+-   Bayesian comparison
+    -   Ghosts!
+        -   https://www.semanticscholar.org/paper/Feeling-the-future%3A-experimental-evidence-for-on-Bem/053428187307008d657c815c6b2dff7130750cb9?p2df
+        -   https://www.ejwagenmakers.com/2011/Bem6.pdf
+            https://www.psychologytoday.com/us/blog/one-among-many/201101/bem-bayes-and-the-limits-statistical-inference
+    -   [Monty
+        Hall](https://brilliant.org/wiki/monty-hall-problem/){target="_blank"}
+    -   Sampling
+        -   https://towardsdatascience.com/a-zero-math-introduction-to-markov-chain-monte-carlo-methods-dcba889e0c50
+    -   Approaches
+        -   https://link.springer.com/article/10.3758/PBR.16.2.225
+        -   https://bloomington.iu.edu/\~kruschke/BEST/
+        -   https://www.ejwagenmakers.com/2011/WetzelsEtAl2011_855.pdf
+        -   https://www.flutterbys.com.au/stats/tut/tut7.4b.html
+        -   https://www.sumsar.net/blog/2014/10/tiny-data-and-the-socks-of-karl-broman/
+        -   https://statmodeling.stat.columbia.edu/2016/08/22/bayesian-inference-completely-solves-the-multiple-comparisons-problem/
+    -   stan
+        -   https://mc-stan.org/users/
+        -   https://jrnold.github.io/bugs-examples-in-stan/index.html
+        -   https://strengejacke.wordpress.com/2018/06/06/r-functions-for-bayesian-model-statistics-and-summaries-rstats-stan-brms/
+    -   brms
+        -   https://www.r-bloggers.com/2022/04/bayesian-analyses-made-easy-glmms-in-r-package-brms/
 
 ## Data referenced in class
