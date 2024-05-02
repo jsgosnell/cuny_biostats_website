@@ -59,7 +59,11 @@ website:
           - href: lessons/relationships_among_numerical_variables.qmd
             text: Relationships among numerical variables
           - href: lessons/combining_numerical_and_categorical_predictors.qmd
-            text: Combining numerical and categorical predictors  
+            text: Combining numerical and categorical predictors
+          - href: lessons/linear_models_extensions.qmd
+            text: Extending linear models
+          - href: lessons/bayesian_analysis.qmd
+            text: Bayesian analysis
 format:
   html:
     theme:

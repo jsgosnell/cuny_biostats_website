@@ -36,11 +36,12 @@ produce R output used in slides.
 
 -   [https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Linear_model_extensions.html](https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Linear_model_extensions.html){target="_blank"}
 
-## [Lecture slides (click to open in Google slides!)](https://docs.google.com/presentation/d/1rngl7n5qE83Ks-PVAUlmVJ921qBiRTq64RhyZMMeBl4/edit?usp=sharing){target="_blank"}
+## [Lecture slides (click to open in Google slides!)](https://docs.google.com/presentation/d/1tAiUWnFGpD2l6VZ4Tf4ugtmU2CZmMutxBz7XVY7sdVs/edit?usp=sharing){target="_blank"}
 
 
 ```{=html}
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTywtUOIRUnFv82UjliYr-k_bPydfvYNnEk-8QQ25NNlLJ-S8jo2R6_ENhMopQSII-QSShaoklhwx15/embed?start=false&loop=false&delayms=60000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSFKDgLmaYtbAUrN7HJHBuidVAZPJvlMEO9ZzbQYXwqEVz43EpNqQQFI8QoAxJBqVvWGsz-E_bDixWT/embed?start=false&loop=false&delayms=60000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 ```
 
 ## [Connected assignment(click here)](https://jsgosnell.github.io/cuny_biostats_book/content/practice_problems/10_Linear_model_extensions.html){target="_blank"}
