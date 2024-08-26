@@ -62,6 +62,8 @@ website:
             text: Combining numerical and categorical predictors
           - href: lessons/linear_models_extensions.qmd
             text: Extending linear models
+          - href: lessons/mixtures_and_multivariate_methods.qmd
+            text: Mixtures and Multivariate methods 
           - href: lessons/bayesian_analysis.qmd
             text: Bayesian analysis
 format:
