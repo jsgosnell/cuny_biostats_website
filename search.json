@@ -508,7 +508,7 @@
     "href": "lessons/acquiring_and_summarizing_data.html",
     "title": "Why do we need statistics?",
     "section": "",
-    "text": "To introduce students (to the class and field of statistics) and discuss how we can acquire and summarize data. By the end of the lesson, you should be able to\n\ndiscuss why scientists need statistics\ndefine statistics\nunderstand the structure of the course\ndiscuss what sampling is (and how it relates to statistics)\ndiscuss what makes a good sample\ndefine bias and provide examples of sampling schemes that may lead to it\nprovide examples of how data can be numerically and visually summarized and discuss best practices for these deciding on how specific data sets should be summarized\n\nNote you don’t have to “make” the graphs or produce the calculations! We’ll do those in later sessions - focus on the concepts for now",
+    "text": "To discuss how we can acquire and summarize data. By the end of the lesson, you should be able to\n\ndiscuss why scientists need statistics\ndefine statistics\nunderstand the structure of the course\ndiscuss what sampling is (and how it relates to statistics)\ndiscuss what makes a good sample\ndefine bias and provide examples of sampling schemes that may lead to it\nprovide examples of how data can be numerically and visually summarized and discuss best practices for these deciding on how specific data sets should be summarized\n\nNote you don’t have to “make” the graphs or produce the calculations! We’ll do those in later sessions - focus on the concepts for now",
     "crumbs": [
       "Lessons",
       "Acquiring and summarizing data"
@@ -519,7 +519,7 @@
     "href": "lessons/acquiring_and_summarizing_data.html#objective",
     "title": "Why do we need statistics?",
     "section": "",
-    "text": "To introduce students (to the class and field of statistics) and discuss how we can acquire and summarize data. By the end of the lesson, you should be able to\n\ndiscuss why scientists need statistics\ndefine statistics\nunderstand the structure of the course\ndiscuss what sampling is (and how it relates to statistics)\ndiscuss what makes a good sample\ndefine bias and provide examples of sampling schemes that may lead to it\nprovide examples of how data can be numerically and visually summarized and discuss best practices for these deciding on how specific data sets should be summarized\n\nNote you don’t have to “make” the graphs or produce the calculations! We’ll do those in later sessions - focus on the concepts for now",
+    "text": "To discuss how we can acquire and summarize data. By the end of the lesson, you should be able to\n\ndiscuss why scientists need statistics\ndefine statistics\nunderstand the structure of the course\ndiscuss what sampling is (and how it relates to statistics)\ndiscuss what makes a good sample\ndefine bias and provide examples of sampling schemes that may lead to it\nprovide examples of how data can be numerically and visually summarized and discuss best practices for these deciding on how specific data sets should be summarized\n\nNote you don’t have to “make” the graphs or produce the calculations! We’ll do those in later sessions - focus on the concepts for now",
     "crumbs": [
       "Lessons",
       "Acquiring and summarizing data"
@@ -1014,7 +1014,7 @@
     "href": "lessons/tools.html#lecture-slides-click-to-open-in-google-slides",
     "title": "Introducing R, Rstudio, git, and markdown",
     "section": "Lecture slides (click to open in Google slides!)",
-    "text": "Lecture slides (click to open in Google slides!)",
+    "text": "Lecture slides (click to open in Google slides!)\nPart 1 focused on getting used to R and git",
     "crumbs": [
       "Lessons",
       "Introducing R, Rstudio, git, and markdown"
@@ -1023,6 +1023,28 @@
   {
     "objectID": "lessons/tools.html#connected-assignmentclick-here",
     "href": "lessons/tools.html#connected-assignmentclick-here",
+    "title": "Introducing R, Rstudio, git, and markdown",
+    "section": "Connected assignment(click here)",
+    "text": "Connected assignment(click here)\nThis link downloads an R primer file to work through. Git will explained during class sessions.",
+    "crumbs": [
+      "Lessons",
+      "Introducing R, Rstudio, git, and markdown"
+    ]
+  },
+  {
+    "objectID": "lessons/tools.html#lecture-slides-click-to-open-in-google-slides-1",
+    "href": "lessons/tools.html#lecture-slides-click-to-open-in-google-slides-1",
+    "title": "Introducing R, Rstudio, git, and markdown",
+    "section": "Lecture slides (click to open in Google slides!)",
+    "text": "Lecture slides (click to open in Google slides!)\nPart 2 focused on getting used to Rmarkdown",
+    "crumbs": [
+      "Lessons",
+      "Introducing R, Rstudio, git, and markdown"
+    ]
+  },
+  {
+    "objectID": "lessons/tools.html#connected-assignmentclick-here-1",
+    "href": "lessons/tools.html#connected-assignmentclick-here-1",
     "title": "Introducing R, Rstudio, git, and markdown",
     "section": "Connected assignment(click here)",
     "text": "Connected assignment(click here)\nUsing these skills and applying concepts correctly to interpret data sets may seem easy when you read about them or listen during class, but practice is key to ensuring you understand the material. Practice problems are provided for each lesson. The link above points you to the appropriate link in the course notes. You can make a copy (technically a fork, since you can’t directly edit it) of the entire course notes website in github @ https://github.com/jsgosnell/cuny_biostats_book and work from there. The benefit is this allows you to see updates to the site (if you sync your fork). The downside is you have to work interactively or build the entire site when you render a changed file. This is doable but may take more time than students need. Alternatively, you can download just the practice problems @ https://github.com/jsgosnell/cuny_biostats_practice_problems. Your instructor may also provide alternative problems or use a different delivery method (like github classroom).\nIn general you should only work edit .qmd files! Everything/anything else is produced during the session and should not be edited. All files can be uploaded to github though.\nSolutions are also provided for all problems via the course notes, but try them before you look at the answers!",
