@@ -24,10 +24,13 @@ Teaching and Learning have supported the continued development of the class.
 
 The class now includes 
 
-* website housing slides and 
+* this repository/website (https://jsgosnell.github.io/cuny_biostats_website/) housing slides and 
 associated material
-* tutorials for many lessons using Swirl (https://swirlstats.com/)
+  * originally at https://sites.google.com/view/biostats/home
+* tutorials for many lessons using Swirl (https://swirlstats.com/) housed at https://github.com/jsgosnell/JSG_swirl_lessons
     * developed with support of a QUBES working group (https://qubeshub.org/community/groups/teaching_r_fmn)
-* this book!
+* a book https://jsgosnell.github.io/cuny_biostats_book/!
+   * Original .R and .rmd files from are were migrated into a new book using quarto  
 
-Template from https://github.com/nmfs-opensci/NOAA-quarto-simple.  
+
+Template from https://github.com/nmfs-opensci/NOAA-quarto-simple. 
