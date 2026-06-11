@@ -12,30 +12,7 @@ knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
 
 ## Objective
 
-To introduce students (to the class and field of statistics) and discuss
-how we can acquire and summarize data. By the end of the lesson, you
-should be able to
-
--   discuss why scientists need statistics
-
--   define statistics
-
--   understand the structure of the course
-
--   discuss what sampling is (and how it relates to statistics)
-
--   discuss what makes a good sample
-
--   define bias and provide examples of sampling schemes that may lead
-    to it
-
--   provide examples of how data can be numerically and visually
-    summarized and discuss best practices for these deciding on how
-    specific data sets should be summarized
-
-    -   Note you don't have to "make" the graphs or produce the
-        calculations! We'll do those in later sessions - focus on the
-        concepts for now
+To introduce students to the class and field of statistics 
 
 ## Background reading
 
@@ -46,10 +23,6 @@ produce R output used in slides.
 
 -   [https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Introduction.html](https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Introduction.html){target="_blank"}
 
--   [https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Acquiring_data.html](https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Acquiring_data.html){target="_blank"}
-
--   [https://jsgosnell.github.io/cuny_biostats_book/content/chapters/summarizing_data.html](https://jsgosnell.github.io/cuny_biostats_book/content/chapters/summarizing_data.html){target="_blank"}
-
 ## [Lecture slides (click to open in Google slides!)](https://docs.google.com/presentation/d/1qL_LeQI_gN3AZg9i2sno7z_Ot08pjsfSYYz8UDjQt4Y/edit?usp=sharing){target="_blank"}
 
 ```{=html}
@@ -58,12 +31,8 @@ produce R output used in slides.
 
 ## Extra material
 
-[Polling problems and why we should still trust some
-polls](https://www.vanderbilt.edu/unity/2021/01/11/polling-problems-and-why-we-should-still-trust-some-polls/){target="_blank"}
 
 ```{=html}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sSD84bIkWDw?si=TaA8eVSGUYbegbpp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ```
-Visualize residuals with help of [this
-app](https://shiney.zoology.ubc.ca/whitlock/Residuals/){target="_blank"}
-produced by a group at UBC.
+
