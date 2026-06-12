@@ -900,6 +900,17 @@
     ]
   },
   {
+    "objectID": "lessons/ggplot2.html#connected-assignmentclick-here",
+    "href": "lessons/ggplot2.html#connected-assignmentclick-here",
+    "title": "Using ggplot2",
+    "section": "Connected assignment(click here)",
+    "text": "Connected assignment(click here)\nUsing these skills and applying concepts correctly to interpret data sets may seem easy when you read about them or listen during class, but practice is key to ensuring you understand the material. Practice problems are provided for each lesson. The link above points you to the appropriate link in the course notes. You can make a copy (technically a fork, since you can’t directly edit it) of the entire course notes website in github @ https://github.com/jsgosnell/cuny_biostats_book and work from there. The benefit is this allows you to see updates to the site (if you sync your fork). The downside is you have to work interactively or build the entire site when you render a changed file. This is doable but may take more time than students need (and may lead to merge issues!).\nAlternatively,your instructor may use a different delivery method (like github classroom) or provide alternative problems.\nIn general you should only work edit .qmd files! Everything/anything else is produced during the session and should not be edited. All files can be uploaded to github though.\nSolutions are also provided for all problems via the course notes, but try them before you look at the answers!",
+    "crumbs": [
+      "Lessons",
+      "Introducing ggplot2"
+    ]
+  },
+  {
     "objectID": "lessons/ggplot2.html#extra-material",
     "href": "lessons/ggplot2.html#extra-material",
     "title": "Using ggplot2",
