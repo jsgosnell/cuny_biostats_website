@@ -1,0 +1,36 @@
+---
+title: Using ggplot2
+subtitle: Making nicer graphs in R
+bibliography: ../references.bib
+---
+
+<!-- COMMENT NOT SHOW IN ANY OUTPUT: Code chunk below sets overall defaults for .qmd file; these inlcude showing output by default and looking for files relative to .Rpoj file, not .qmd file, which makes putting filesin different folders easier  -->
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
+```
+
+## Objective
+
+This module introduces students to ggplot2, a commonly-used plotting
+package in R. Students will
+
+-   begin to understand the syntax of ggplot2
+-   be able to produce and update various plots, with a focus on
+    histograms and producing error bars on charts
+
+## Background reading
+
+Course notes links for background reading also contain code used to
+produce R output used in slides.
+
+-   [https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Probability.html](https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Probability.html){target="_blank"}
+
+## [Lecture slides (click to open in Google slides!)](https://docs.google.com/presentation/d/181z4AmZJLXEmgWEocpG0W_pQaO3eL8TLzz-PnbvQx2M/edit?usp=sharing){target="_blank"}
+
+```{=html}
+<iframe src="https://docs.google.com/presentation/d/181z4AmZJLXEmgWEocpG0W_pQaO3eL8TLzz-PnbvQx2M/embed?start=false&loop=false&delayms=60000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+```
+
+## Extra material

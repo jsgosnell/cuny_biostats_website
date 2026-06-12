@@ -46,8 +46,12 @@ website:
             text: Acquiring and summarizing data
           - href: lessons/tools.qmd
             text: Introducing R, Rstudio, git, and markdown
-          - href: lessons/estimation_and_probability.qmd
-            text: Estimation and Probability
+          - href: lessons/estimation.qmd
+            text: Estimation
+          - href: lessons/probability.qmd
+            text: Probability
+          - href: lessons/ggplot2.qmd
+            text: Introducing ggplot2
           - href: lessons/intro_to_hypothesis_testing_via_binomial.qmd
             text: Introducing hypothesis testing via the binomial distribution
           - href: lessons/intro_to_normality_via_one_sample_tests.qmd
